@@ -1,4 +1,4 @@
-import { Sidebar, Navbar } from "./_";
+import { Sidebar, Navbar, Main } from "./_";
 export function Swap() {
   return (
     <div className="wrapper">
@@ -6,6 +6,7 @@ export function Swap() {
 
       <div className="body_content_wrap" id="myHeader">
         <Navbar />
+        <Main />
       </div>
     </div>
   );
