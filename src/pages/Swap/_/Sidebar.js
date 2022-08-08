@@ -2,13 +2,13 @@ export function Sidebar() {
   return (
     <nav id="sidebar">
       <div className="sidebar-header">
-        <a href="index.html">
+        <a href="/">
           <img src={require("../../../assets/image/logo.png")} />
         </a>
       </div>
       <ul className="list-unstyled components fa_icon_Set">
         <li className="active">
-          <a href="index.html">
+          <a href="/">
             <i
               className="fas fa-home"
               style={{ color: "white" }}
@@ -35,13 +35,13 @@ export function Sidebar() {
           <i className="fa-solid fa-check-to-slot"></i>
           <ul className="collapse list-unstyled" id="homeSubmenu">
             <li>
-              <a href="browse.html"> Browse</a>
+              <a href="/"> Browse</a>
             </li>
             <li>
-              <a href="import.html">Import</a>
+              <a href="/">Import</a>
             </li>
             <li>
-              <a href="migrate.html">Migrate</a>
+              <a href="/">Migrate</a>
             </li>
           </ul>
         </li>
@@ -62,10 +62,10 @@ export function Sidebar() {
           </a>
           <ul className="collapse list-unstyled" id="tradeSubmenu">
             <li>
-              <a href="swap.html"> Exchange</a>
+              <a href="/swap"> Exchange</a>
             </li>
             <li>
-              <a href="liquidity.html">Liquidity</a>
+              <a href="/liquidity">Liquidity</a>
             </li>
           </ul>
         </li>
@@ -124,10 +124,10 @@ export function Sidebar() {
           </a>
           <ul className="collapse list-unstyled" id="FarmsSubmenu">
             <li>
-              <a href="Farm.html"> Your Farms</a>
+              <a href="/"> Your Farms</a>
             </li>
             <li>
-              <a href="Allfarm.html">All Farms</a>
+              <a href="/">All Farms</a>
             </li>
           </ul>
         </li>
@@ -160,7 +160,7 @@ export function Sidebar() {
           </a>
           <ul className="collapse list-unstyled" id="nftSubmenu">
             <li>
-              <a href="explore.html">
+              <a href="/">
                 <i
                   className="fas fa-gamepad"
                   style={{ color: "#fff" }}
@@ -170,7 +170,7 @@ export function Sidebar() {
               </a>
             </li>
             <li>
-              <a href="openmarket.html">
+              <a href="/">
                 <i
                   className="fas fa-gamepad"
                   style={{ color: "#fff" }}
@@ -181,7 +181,7 @@ export function Sidebar() {
             </li>
 
             <li>
-              <a href="gameassets.html">
+              <a href="/">
                 <i
                   className="fas fa-gamepad"
                   style={{ color: "#fff" }}
@@ -193,7 +193,7 @@ export function Sidebar() {
           </ul>
         </li>
         <li>
-          <a href="Launchpad.html">
+          <a href="/">
             <i
               className="fas fa-gamepad"
               style={{ color: "#fff" }}

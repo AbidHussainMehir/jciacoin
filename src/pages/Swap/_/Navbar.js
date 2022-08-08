@@ -65,7 +65,7 @@ export function Navbar() {
                   <a className="dropdown-item" href="/swap">
                     Exchange
                   </a>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="/liquidity">
                     Liquidity
                   </a>
                 </div>

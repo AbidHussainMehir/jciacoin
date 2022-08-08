@@ -25,13 +25,13 @@ export function Main() {
                       <div className="exchange_hd">
                         <ul className="nav nav-pills pool_tab" role="tablist">
                           <li className="nav-item">
-                            <a className="nav-link active" href="swap.html">
+                            <a className="nav-link active" href="/swap">
                               Swap
                             </a>
                           </li>
 
                           <li className="nav-item">
-                            <a className="nav-link" href="liquidity.html">
+                            <a className="nav-link" href="/liquidity">
                               Liquidity
                             </a>
                           </li>
