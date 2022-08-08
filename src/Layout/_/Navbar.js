@@ -23,7 +23,7 @@ export function Navbar() {
             style={{ borderBottom: "unset" }}
           >
             <a className="navbar-brand" href="/">
-              <img src={require("../../../assets/image/logo.png")} />
+              <img src={require("../../assets/image/logo.png")} />
             </a>
             <ul className="navbar-nav">
               <li className="nav-item">

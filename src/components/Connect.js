@@ -18,7 +18,7 @@ export function Connect() {
                 <h3>Metamask</h3>
               </div>
               <div className="wallet_name">
-                <img src={require("../../../assets/image/meta_mask.png")} />
+                <img src={require("../assets/image/meta_mask.png")} />
               </div>
             </button>
 
@@ -27,7 +27,7 @@ export function Connect() {
                 <h3>TrustWallet</h3>
               </div>
               <div className="wallet_name">
-                <img src={require("../../../assets/image/trust_wallet.png")} />
+                <img src={require("../assets/image/trust_wallet.png")} />
               </div>
             </button>
 
@@ -36,7 +36,7 @@ export function Connect() {
                 <h3>MathWallet</h3>
               </div>
               <div className="wallet_name">
-                <img src={require("../../../assets/image/math_wallet.png")} />
+                <img src={require("../assets/image/math_wallet.png")} />
               </div>
             </button>
 
@@ -45,7 +45,7 @@ export function Connect() {
                 <h3>MathWallet</h3>
               </div>
               <div className="wallet_name">
-                <img src={require("../../../assets/image/math_wallet.png")} />
+                <img src={require("../assets/image/math_wallet.png")} />
               </div>
             </button>
 
@@ -54,9 +54,7 @@ export function Connect() {
                 <h3>WalletConnect</h3>
               </div>
               <div className="wallet_name">
-                <img
-                  src={require("../../../assets/image/connect_wallet.png")}
-                />
+                <img src={require("../assets/image/connect_wallet.png")} />
               </div>
             </button>
 
@@ -66,7 +64,7 @@ export function Connect() {
               </div>
               <div className="wallet_name">
                 <img
-                // src={require("../../../assets/image/binance_chain_wallet.png")}
+                // src={require("../assets/image/binance_chain_wallet.png")}
                 />
               </div>
             </button>
@@ -76,9 +74,7 @@ export function Connect() {
                 <h3>SafePal Wallet</h3>
               </div>
               <div className="wallet_name">
-                <img
-                  src={require("../../../assets/image/safepal_wallet.png")}
-                />
+                <img src={require("../assets/image/safepal_wallet.png")} />
               </div>
             </button>
             <div className="connect_info">

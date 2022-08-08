@@ -3,7 +3,7 @@ export function Sidebar() {
     <nav id="sidebar">
       <div className="sidebar-header">
         <a href="/">
-          <img src={require("../../../assets/image/logo.png")} />
+          <img src={require("../../assets/image/logo.png")} />
         </a>
       </div>
       <ul className="list-unstyled components fa_icon_Set">

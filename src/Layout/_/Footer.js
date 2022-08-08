@@ -5,7 +5,7 @@ export function Footer() {
         <div className="row">
           <div className="col-md-3">
             <div className="footer_col1">
-              <img src={require("../../../assets/image/logo.png")} />
+              <img src={require("../../assets/image/logo.png")} />
               <p>
                 Our community is building a comprehensive decentralized trading
                 platform for the future of finance. Join us!
