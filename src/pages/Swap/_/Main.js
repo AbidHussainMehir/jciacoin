@@ -14,6 +14,10 @@ export function Main() {
   function closeNav8() {
     document.getElementById("myNav8").style.display = "none";
   }
+  function openNav10() {
+    document.getElementById("myNav10").style.display = "block";
+  }
+
   return (
     <section>
       <div className="container-fluid">
@@ -56,7 +60,7 @@ export function Main() {
                           </svg>
                           <span className="price_set"></span>
                         </div>
-                        <div className="tools_img">
+                        <div className="tools_img" onClick={openNav10}>
                           <i className="fa fa-cog"></i>
                         </div>
                       </div>
@@ -66,7 +70,7 @@ export function Main() {
                         <div className="exchange_tools">
                           <div className="bnb_btn bnb_position">
                             <span className="swap_from">Swap From</span>
-                            <button onclick={openNav8}>
+                            <button onClick={openNav8}>
                               <img
                                 src={require("../../../assets/image/bnb.png")}
                               />
@@ -109,7 +113,7 @@ export function Main() {
                               <path d="M0,0 L500,0 L500,500 L0,500z"></path>
                             </clipPath>
                           </defs>
-                          <g clip-path="url(#__lottie_element_402)">
+                          <g clipPath="url(#__lottie_element_402)">
                             <g
                               transform="matrix(4.5,0,0,4.5,207.25,194.875)"
                               opacity="1"
@@ -117,12 +121,12 @@ export function Main() {
                             >
                               <g opacity="1" transform="matrix(1,0,0,1,0,0)">
                                 <path
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  fill-opacity="0"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  fillOpacity="0"
                                   stroke="rgb(226,226,226)"
-                                  stroke-opacity="1"
-                                  stroke-width="5.6000000000000005"
+                                  strokeOpacity="1"
+                                  strokeWidth="5.6000000000000005"
                                   d=" M28.945999145507812,-27.937000274658203 C28.966999053955078,-9.605999946594238 29.014999389648438,33.75299835205078 29.034000396728516,50.236000061035156"
                                 ></path>
                               </g>
@@ -134,12 +138,12 @@ export function Main() {
                             >
                               <g opacity="1" transform="matrix(1,0,0,1,0,0)">
                                 <path
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  fill-opacity="0"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  fillOpacity="0"
                                   stroke="rgb(226,226,226)"
-                                  stroke-opacity="1"
-                                  stroke-width="5.6000000000000005"
+                                  strokeOpacity="1"
+                                  strokeWidth="5.6000000000000005"
                                   d=" M-20.548999786376953,-4.929999828338623 C-20.548999786376953,-4.929999828338623 -20.548999786376953,12.746999740600586 -20.548999786376953,12.746999740600586 C-20.548999786376953,12.746999740600586 -2.927000045776367,12.746999740600586 -2.927000045776367,12.746999740600586"
                                 ></path>
                               </g>
@@ -151,12 +155,12 @@ export function Main() {
                             >
                               <g opacity="1" transform="matrix(1,0,0,1,0,0)">
                                 <path
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  fill-opacity="0"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  fillOpacity="0"
                                   stroke="rgb(226,226,226)"
-                                  stroke-opacity="1"
-                                  stroke-width="5.6000000000000005"
+                                  strokeOpacity="1"
+                                  strokeWidth="5.6000000000000005"
                                   d=" M28.945999145507812,-27.937000274658203 C28.966999053955078,-9.605999946594238 29.014999389648438,33.75299835205078 29.034000396728516,50.236000061035156"
                                 ></path>
                               </g>
@@ -168,18 +172,18 @@ export function Main() {
                             >
                               <g opacity="1" transform="matrix(1,0,0,1,0,0)">
                                 <path
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  fill-opacity="0"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  fillOpacity="0"
                                   stroke="rgb(226,226,226)"
-                                  stroke-opacity="1"
-                                  stroke-width="5.6000000000000005"
+                                  strokeOpacity="1"
+                                  strokeWidth="5.6000000000000005"
                                   d=" M-20.548999786376953,-4.929999828338623 C-20.548999786376953,-4.929999828338623 -20.548999786376953,12.746999740600586 -20.548999786376953,12.746999740600586 C-20.548999786376953,12.746999740600586 -2.927000045776367,12.746999740600586 -2.927000045776367,12.746999740600586"
                                 ></path>
                               </g>
                             </g>
                             <g
-                              clip-path="url(#__lottie_element_404)"
+                              clipPath="url(#__lottie_element_404)"
                               transform="matrix(1,0,0,1,0,0)"
                               opacity="1"
                               style={{ display: "block" }}
@@ -193,7 +197,7 @@ export function Main() {
                         <div className="exchange_tools">
                           <div className="bnb_btn bnb_position">
                             <p className="swap_from">Swap To (est):</p>
-                            <button className="min_wth" onclick={openNav8}>
+                            <button className="min_wth" onClick={openNav8}>
                               <div className="bnbRotate"></div>
                               <span className="selct_tkn">Select a token</span>
                             </button>
@@ -212,7 +216,7 @@ export function Main() {
                     <div className="wallet_btn mr_set">
                       <button
                         className="btn button btn-success"
-                        onclick={openNav9}
+                        onClick={openNav9}
                       >
                         Unlock Wallet
                       </button>
