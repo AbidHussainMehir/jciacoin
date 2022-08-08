@@ -24,7 +24,47 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jciacoin.com</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="%PUBLIC_URL%/image/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/css/dashboardNav.css"
+    />
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/custom.css" />
+    <script type="text/javascript" src="%PUBLIC_URL%/js/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <script
+      type="text/javascript"
+      src="%PUBLIC_URL%/js/webtranslator.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +79,54 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script src="%PUBLIC_URL%/js/popper.min.js.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
+    <!---js end-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#sidebarCollapse").on("click", function () {
+          $("#sidebar").toggleClass("active");
+        });
+      });
+    </script>
+
+    <script>
+      function openNav9() {
+        console.log("called");
+        document.getElementById("myNav9").style.display = "block";
+      }
+
+      function closeNav9() {
+        document.getElementById("myNav9").style.display = "none";
+      }
+    </script>
+
+    <script>
+      function openNav8() {
+        document.getElementById("myNav8").style.display = "block";
+      }
+
+      function closeNav8() {
+        document.getElementById("myNav8").style.display = "none";
+      }
+    </script>
+
+    <!-- <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script> -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
   </body>
 </html>
