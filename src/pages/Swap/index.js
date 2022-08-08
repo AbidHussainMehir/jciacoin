@@ -1,4 +1,4 @@
-import { Sidebar, Navbar, Main, Footer, Settings } from "./_";
+import { Sidebar, Navbar, Main, Footer, Settings, Token, Connect } from "./_";
 export function Swap() {
   return (
     <div className="wrapper">
@@ -9,6 +9,8 @@ export function Swap() {
         <Main />
         <Footer />
         <Settings />
+        <Token />
+        <Connect />
       </div>
     </div>
   );

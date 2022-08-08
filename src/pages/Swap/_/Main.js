@@ -3,17 +3,10 @@ export function Main() {
     document.getElementById("myNav9").style.display = "block";
   }
 
-  function closeNav9() {
-    document.getElementById("myNav9").style.display = "none";
-  }
-
   function openNav8() {
     document.getElementById("myNav8").style.display = "block";
   }
 
-  function closeNav8() {
-    document.getElementById("myNav8").style.display = "none";
-  }
   function openNav10() {
     document.getElementById("myNav10").style.display = "block";
   }
