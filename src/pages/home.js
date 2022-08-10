@@ -1,115 +1,15 @@
 import React from 'react'
+import { Header } from '../components/Header'
+import { Link } from 'react-router-dom'
 
 export const Home = () => {
   return (
     <>
 	<div class="wrapper">
+        
 		{/* <!---==================Sidebar start====================---> */}
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <a href="home.js">
-                    <img src="assets/image/logo.png" />
-                </a>
-            </div>
-            <ul class="list-unstyled components fa_icon_Set">
-                <li class="active">
-                    <a href="home.js"><i class="fas fa-home"  style={{"color":"#fff"}} aria-hidden="true"></i> Home </a>
-                </li>
-                 <li>
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt"  style={{"color":"#fff"}} aria-hidden="true"></i> Pool</a><i class="fa-solid fa-check-to-slot"></i>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="browse.js"> Browse</a>
-                        </li>
-                        <li>
-                            <a href="import.js">Import</a>
-                        </li> 
-                        <li>
-                            <a href="migrate.js">Migrate</a>
-                        </li> 
-                    </ul>
-                </li> 
-                <li>
-                    <a href="#tradeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt"  style={{"color":"#fff"}} aria-hidden="true"></i> Trade</a>
-                    <ul class="collapse list-unstyled" id="tradeSubmenu">
-                        <li>
-                            <a href="swap.js"> Exchange</a>
-                        </li>
-                        <li>
-                            <a href="liquidity.js">Liquidity</a>
-                        </li> 
-                    </ul>
-                </li> 
-                <li>
-                    <a href="#gameSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt"  style={{"color":"#fff"}} aria-hidden="true"></i> Game</a>
-                    <ul class="collapse list-unstyled" id="gameSubmenu">
-                        <li>
-                            <a href="#"><i class="fas fa-gamepad" style={{"color":"#fff"}} aria-hidden="true"></i> Game</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-gamepad" style={{"color":"#fff"}} aria-hidden="true"></i>Game 2</a>
-                        </li> 
-                    </ul>
-                </li>
-                <li>
-                    <a href="#FarmsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt"  style={{"color":"#fff"}} aria-hidden="true"></i> Farms</a>
-                    <ul class="collapse list-unstyled" id="FarmsSubmenu">
-                        <li>
-                            <a href="Farm.js"> Your Farms</a>
-                        </li>
-                        <li>
-                            <a href="AllFrams.js">All Farms</a>
-                        </li> 
-                    </ul>
-                </li>  
-                <li>
-                    <a href="farms.js"><i class="fas fa-file" style={{"color":"#fff"}} aria-hidden="true"></i>Farms</a>
-                </li> 
-                <li>
-                    <a href="#"><i class="fas fa-gamepad" style={{"color":"#fff"}} aria-hidden="true"></i>NFT</a>
-                </li> 
-
-                <li>
-                    <a href="#nftSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt"  style={{"color":"#fff"}} aria-hidden="true"></i> NFT Marketplace</a>
-                    <ul class="collapse list-unstyled" id="nftSubmenu">
-                        <li>
-                            <a href="explore.js"><i class="fas fa-gamepad" style={{"color":"#fff"}} aria-hidden="true"></i> Explore</a>
-                        </li>
-                        <li>
-                            <a href="openmarket.js"><i class="fas fa-gamepad" style={{"color":"#fff"}} aria-hidden="true"></i>Open Market</a>
-                        </li> 
-
-                         <li>
-                            <a href="gameassets.js"><i class="fas fa-gamepad" style={{"color":"#fff"}} aria-hidden="true"></i>Game Assets</a>
-                        </li> 
-                         
-                    </ul>
-                </li> 
-                 <li>
-                    <a href="Launchpad.js"><i class="fas fa-gamepad" style={{"color":"#fff"}} aria-hidden="true"></i>Launchpad</a>
-                </li> 
-                 <li>
-                    <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt"  style={{"color":"#fff"}} aria-hidden="true"></i> Contact</a>
-                    <ul class="collapse list-unstyled" id="contactSubmenu">
-                        <li>
-                            <a href="#"><i class="fas fa-twitter" style={{"color":"#fff"}} aria-hidden="true"></i> Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-instagram" style={{"color":"#fff"}} aria-hidden="true"></i>Instagram</a>
-                        </li> 
-
-                         <li>
-                            <a href="#"><i class="fas fa-telegram" style={{"color":"#fff"}} aria-hidden="true"></i>Telegram</a>
-                        </li> 
-                        <li>
-                            <a href="#"><i class="fas fa-medium" style={{"color":"#fff"}} aria-hidden="true"></i>Medium</a>
-                        </li> 
-                         
-                    </ul>
-                </li> 
-
-            </ul>
-        </nav>
+        <Header />
+       
         {/* <!---==================Sidebar end====================--->
 
         <!---============Top menu Dashboard start==============---> */}
@@ -122,26 +22,26 @@ export const Home = () => {
                     </button>
                    	<div class="top_navbar">
 					    <nav class="navbar navbar-expand-sm navbar-dark"  style={{"border-bottom":" unset"}}>
-					        <a class="navbar-brand" href="home.js">
+					        <a class="navbar-brand" href="/">
 					        	<img src="assets/image/logo.png" />
 					        </a>
 					        <ul class="navbar-nav">
 					            <li class="nav-item">
-					                <a class="nav-link" href="home.js">Swap</a>
+					                <Link class="nav-link" to="swap">Swap</Link>
 					            </li>
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pool</a>
 					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="browse.js">Browse</a>
-					                    <a class="dropdown-item" href="import.js">Import</a>
-					                     <a class="dropdown-item" href="migrate.js">Migrate</a>
+					                    <Link class="dropdown-item" to="/browse">Browse</Link>
+					                    <Link class="dropdown-item" to="/imports">Import</Link>
+					                     <Link class="dropdown-item" to="/migrate">Migrate</Link>
 					                </div>
 					            </li>
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Trade</a>
 					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="swap.js">Exchange</a>
-					                    <a class="dropdown-item" href="liquidity.js">Liquidity</a>
+					                    <Link class="dropdown-item" to="/swap">Exchange</Link>
+					                    <Link class="dropdown-item" to="/liquidity">Liquidity</Link>
 					                </div>
 					            </li>
 					            <li class="nav-item dropdown">
@@ -154,21 +54,21 @@ export const Home = () => {
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Farm</a>
 					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="Farm.js">Your Farms</a>
-					                    <a class="dropdown-item" href="AllFarm.js">All Farms</a>
+					                    <Link class="dropdown-item" to="/Farm">Your Farms</Link>
+					                    <Link class="dropdown-item" to="/AllFarm">All Farms</Link>
 					                </div>
 					            </li>
 					            <li class="nav-item"><a class="nav-link" href="#" target="_blank">NFT</a></li>
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">NFT Marketplace</a>
 					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="explore.js" target="_blank">Explore</a>
-					                    <a class="dropdown-item" href="openmarket.js" target="_blank">Open Market</a>
-					                     <a class="dropdown-item" href="gameassets.js" target="_blank">Game Assets</a>
+					                    <Link class="dropdown-item" to="/explore" target="_blank">Explore</Link>
+					                    <Link class="dropdown-item" to="/openmarket" target="_blank">Open Market</Link>
+					                     <Link class="dropdown-item" to="/gameassets" target="_blank">Game Assets</Link>
 					                </div>
 					            </li>
 
-					             <li class="nav-item"><a class="nav-link" href="Launchpad.js" target="_blank">Launchpad</a></li>
+					             <li class="nav-item"><Link class="nav-link" to="/Launchpad" target="_blank">Launchpad</Link></li>
 
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Contact</a>
@@ -209,13 +109,13 @@ export const Home = () => {
 			                                    <div class="exchange_hd">
 			                                        <ul class="nav nav-pills pool_tab" role="tablist">
 								                        <li class="nav-item">
-								                            <a class="nav-link active" href="swap.js">Swap</a>
+								                            <Link class="nav-link active" to="/swap">Swap</Link>
 								                        </li>
 								                         <li class="nav-item">
 								                            <a class="nav-link" href="#">Limit</a>
 								                        </li>  
 								                        <li class="nav-item">
-								                            <a class="nav-link" href="liquidity.js">Liquidity</a>
+								                            <Link class="nav-link" to="liquidity.js">Liquidity</Link>
 								                        </li>
 								                    </ul>
 			                                    </div>
@@ -388,15 +288,7 @@ export const Home = () => {
 			        </div>
 			    </div>
 			</div>
-			<script>
-			    function openNav10() {
-			        document.getElementById("myNav10").style.display = "block"
-			    }
-
-			    function closeNav10() {
-			        document.getElementById("myNav10").style.display = "none"
-			    }
-			</script>
+		
 			{/* <!-----modal popup 10 for connect to wallet end--->
 			<!-----modal popup 11 for connect to wallet start---> */}
 			<div id="myNav11" class="overlay11 textcenter">
@@ -418,15 +310,7 @@ export const Home = () => {
 			        </div>
 			    </div>
 			</div>
-			<script>
-			    function openNav11() {
-			        document.getElementById("myNav11").style.display = "block"
-			    }
-
-			    function closeNav11() {
-			        document.getElementById("myNav11").style.display = "none"
-			    }
-			</script>
+			
 			{/* <!-----modal popup 11 for connect to wallet end-->
 			<!-------=========Liquidity page modal popup end=========---->
             <!-------exchange page start------>
@@ -434,16 +318,7 @@ export const Home = () => {
         </div>
 	</div>
 	{/* <!------=======js start======------> */}
-	<script src="assets/js/popper.min.js.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    {/* <!---js end--> */}
-    <script type="text/javascript">
-        (document).ready(function () {
-            ('#sidebarCollapse').on('click', function () {
-                ('#sidebar').toggleClass('active');
-            })
-        });
-    </script>
+	
 
 
 
@@ -530,15 +405,7 @@ export const Home = () => {
             </div>
         </div>
     </div>
-    <script>
-        function openNav9() {
-            document.getElementById("myNav9").style.display = "block"
-        }
-
-        function closeNav9() {
-            document.getElementById("myNav9").style.display = "none"
-        }
-    </script>
+   
     {/* <!-----modal popup 8 for connect to wallet end--> */}
 
 
@@ -999,27 +866,7 @@ export const Home = () => {
             </div>
         </div>
     </div>
-    <script>
-        function openNav8() {
-            document.getElementById("myNav8").style.display = "block"
-        }
-
-        function closeNav8() {
-            document.getElementById("myNav8").style.display = "none"
-        }
-    </script>
-
-   	<script>
-        (function () {
-            ("#datepicker").datepicker()
-        });
-    </script>
-    {/* <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
-        }
-    </script> */}
-
+   
     </>
   )
 }   

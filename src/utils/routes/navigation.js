@@ -1,4 +1,4 @@
-import { Home, Swap ,Launchpad,Liquidity,Openmarket,Migrate,Imports,Gameasserts,Farm,Farms,ETH,Explore,Browse} from "../../pages";
+import { Home, Swap ,Launchpad,Liquidity,Openmarket,Migrate,Imports,Gameasserts,Farm,Farms,ETH,Explore,Browse, AllFarms} from "../../pages";
 
 export const routes = [
   { path: "/", component: <Home /> },
@@ -13,5 +13,6 @@ export const routes = [
   { path: "/farms", component: <Farms /> },
   { path: "/ETH", component: <ETH /> },
   { path: "/explore", component: <Explore /> },
-  { path: "/browse", component: <Browse /> },
+  { path: "/browse", component: <Browse /> }, 
+  { path: "/allfarms", component: <AllFarms /> },
 ];

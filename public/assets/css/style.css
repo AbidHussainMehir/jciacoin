@@ -687,4 +687,13 @@ a.article:hover {
      
 .icon_logo{
     font-size: 16px ;
+}}
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
 }

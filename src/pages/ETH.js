@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import { Header } from '../components/Header';
 
 export const ETH = () => {
   return (
@@ -6,111 +8,9 @@ export const ETH = () => {
         
 	<div class="wrapper">
 		{/* <!---==================Sidebar start====================---> */}
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <a href="home.js">
-                    <img src="assets/image/logo.png" />
-                </a>
-            </div>
-            <ul class="list-unstyled components fa_icon_Set">
-                <li class="active">
-                    <a href="home.js"><i class="fas fa-home" style={{"color":"#fff"}} aria-hidden="true"></i> Home </a>
-                </li>
-                 <li>
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt" style={{"color":"#fff"}} aria-hidden="true"></i> Pool</a><i class="fa-solid fa-check-to-slot"></i>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="browse.js"> Browse</a>
-                        </li>
-                        <li>
-                            <a href="import.js">Import</a>
-                        </li> 
-                        <li>
-                            <a href="migrate.js">Migrate</a>
-                        </li> 
-                    </ul>
-                </li> 
-                <li>
-                    <a href="#tradeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt" style={{"color":"#fff"}} aria-hidden="true"></i> Trade</a>
-                    <ul class="collapse list-unstyled" id="tradeSubmenu">
-                        <li>
-                            <a href="swap.js"> Exchange</a>
-                        </li>
-                        <li>
-                            <a href="liquidity.js">Liquidity</a>
-                        </li> 
-                    </ul>
-                </li> 
-                <li>
-                    <a href="#gameSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt" style={{"color":"#fff"}} aria-hidden="true"></i> Game</a>
-                    <ul class="collapse list-unstyled" id="gameSubmenu">
-                        <li>
-                            <a href="#"><i class="fas fa-gamepad"style={{"color":"#fff"}} aria-hidden="true"></i> Game</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-gamepad"style={{"color":"#fff"}} aria-hidden="true"></i>Game 2</a>
-                        </li> 
-                    </ul>
-                </li>
-                <li>
-                    <a href="#FarmsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt" style={{"color":"#fff"}} aria-hidden="true"></i> Farms</a>
-                    <ul class="collapse list-unstyled" id="FarmsSubmenu">
-                        <li>
-                            <a href="Farm.js"> Your Farms</a>
-                        </li>
-                        <li>
-                            <a href="Allfarm.js">All Farms</a>
-                        </li> 
-                    </ul>
-                </li>  
-               <li>
-                    <a href="farms.js"><i class="fas fa-file"style={{"color":"#fff"}} aria-hidden="true"></i>Farms</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fas fa-gamepad"style={{"color":"#fff"}} aria-hidden="true"></i>NFT</a>
-                </li> 
 
-                <li>
-                    <a href="#nftSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt" style={{"color":"#fff"}} aria-hidden="true"></i> NFT Marketplace</a>
-                    <ul class="collapse list-unstyled" id="nftSubmenu">
-                        <li>
-                            <a href="explore.js"><i class="fas fa-gamepad"style={{"color":"#fff"}} aria-hidden="true"></i> Explore</a>
-                        </li>
-                        <li>
-                            <a href="openmarket.js"><i class="fas fa-gamepad"style={{"color":"#fff"}} aria-hidden="true"></i>Open Market</a>
-                        </li> 
-
-                         <li>
-                            <a href="gameassets.js"><i class="fas fa-gamepad"style={{"color":"#fff"}} aria-hidden="true"></i>Game Assets</a>
-                        </li> 
-                         
-                    </ul>
-                </li> 
-                 <li>
-                    <a href="Launchpad.js"><i class="fas fa-gamepad"style={{"color":"#fff"}} aria-hidden="true"></i>Launchpad</a>
-                </li> 
-                 <li>
-                    <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> <i class="fas fa-exchange-alt" style={{"color":"#fff"}} aria-hidden="true"></i> Contact</a>
-                    <ul class="collapse list-unstyled" id="contactSubmenu">
-                        <li>
-                            <a href="#"><i class="fas fa-twitter"style={{"color":"#fff"}} aria-hidden="true"></i> Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-instagram"style={{"color":"#fff"}} aria-hidden="true"></i>Instagram</a>
-                        </li> 
-
-                         <li>
-                            <a href="#"><i class="fas fa-telegram"style={{"color":"#fff"}} aria-hidden="true"></i>Telegram</a>
-                        </li> 
-                        <li>
-                            <a href="#"><i class="fas fa-medium"style={{"color":"#fff"}} aria-hidden="true"></i>Medium</a>
-                        </li> 
-                         
-                    </ul>
-                </li> 
-
-            </ul>
-        </nav>
+        <Header/>
+       
         {/* <!---==================Sidebar end====================--->
 
         <!---============Top menu Dashboard start==============---> */}
@@ -123,26 +23,26 @@ export const ETH = () => {
                     </button>
                    	<div class="top_navbar">
 					    <nav class="navbar navbar-expand-sm navbar-dark" style={{"border-bottom": "unset"}}>
-					        <a class="navbar-brand" href="home.js">
+					        <a class="navbar-brand" href="/">
 					        	<img src="assets/image/logo.png" />
 					        </a>
 					        <ul class="navbar-nav">
 					            <li class="nav-item">
-					                <a class="nav-link" href="home.js">Swap</a>
+					                <a class="nav-link" href="/">Swap</a>
 					            </li>
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pool</a>
 					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="browse.js">Browse</a>
-					                    <a class="dropdown-item" href="import.js">Import</a>
-					                     <a class="dropdown-item" href="migrate.js">Migrate</a>
+					                    <Link class="dropdown-item" to="/browse">Browse</Link>
+					                    <Link class="dropdown-item" to="/import">Import</Link>
+					                     <Link class="dropdown-item" to="/migrate">Migrate</Link>
 					                </div>
 					            </li>
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Trade</a>
 					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="swap.js">Exchange</a>
-					                    <a class="dropdown-item" href="liquidity.js">Liquidity</a>
+					                    <Link class="dropdown-item" to="/swap">Exchange</Link>
+					                    <Link class="dropdown-item" to="/liquidity">Liquidity</Link>
 					                </div>
 					            </li>
 					            <li class="nav-item dropdown">
@@ -155,21 +55,21 @@ export const ETH = () => {
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Farm</a>
 					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="Farm.js">Your Farms</a>
-					                    <a class="dropdown-item" href="AllFarm.js">All Farms</a>
+					                    <Link class="dropdown-item" to="/Farm">Your Farms</Link>
+					                    <Link class="dropdown-item" to="/AllFarm">All Farms</Link>
 					                </div>
 					            </li>
 					            <li class="nav-item"><a class="nav-link" href="#" target="_blank">NFT</a></li>
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">NFT Marketplace</a>
 					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="explore.js" target="_blank">Explore</a>
-					                    <a class="dropdown-item" href="openmarket.js" target="_blank">Open Market</a>
-					                     <a class="dropdown-item" href="gameassets.js" target="_blank">Game Assets</a>
+					                    <Link class="dropdown-item" to="/explore" target="_blank">Explore</Link>
+					                    <Link class="dropdown-item" to="openmarket" target="_blank">Open Market</Link>
+					                     <Link class="dropdown-item" to="gameassets" target="_blank">Game Assets</Link>
 					                </div>
 					            </li>
 
-					             <li class="nav-item"><a class="nav-link" href="Launchpad.js" target="_blank">Launchpad</a></li>
+					             <li class="nav-item"><Link class="nav-link" to="Launchpad" target="_blank">Launchpad</Link></li>
 
 					            <li class="nav-item dropdown">
 					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Contact</a>
@@ -210,13 +110,13 @@ export const ETH = () => {
 			                                    <div class="exchange_hd">
 			                                        <ul class="nav nav-pills pool_tab" role="tablist">
 								                        <li class="nav-item">
-								                            <a class="nav-link" href="swap.js">Swap</a>
+								                            <a class="nav-link" href="swap">Swap</a>
 								                        </li>
 								                         <li class="nav-item">
 								                            <a class="nav-link" href="#">Limit</a>
 								                        </li> 
 								                        <li class="nav-item">
-								                            <a class="nav-link active" href="liquidity.js">Liquidity</a>
+								                            <a class="nav-link active" href="liquidity">Liquidity</a>
 								                        </li>
 								                    </ul>
 			                                    </div>
@@ -261,7 +161,7 @@ export const ETH = () => {
 			                                </div>
 			                                <div class="exchange_arrow">
 			                                     <i class="fa fa-sort"></i> 
-			                                    <div ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_402"><rect width="500" height="500" x="0" y="0"></rect></clipPath><clipPath id="__lottie_element_404"><path d="M0,0 L500,0 L500,500 L0,500z"></path></clipPath></defs><g clip-path="url(#__lottie_element_402)"><g transform="matrix(4.5,0,0,4.5,207.25,194.875)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(226,226,226)" stroke-opacity="1" stroke-width="5.6000000000000005" d=" M28.945999145507812,-27.937000274658203 C28.966999053955078,-9.605999946594238 29.014999389648438,33.75299835205078 29.034000396728516,50.236000061035156"></path></g></g><g transform="matrix(3.1819803714752197,-3.1819803714752197,3.1819803714752197,3.1819803714752197,363.2012939453125,326.5682373046875)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(226,226,226)" stroke-opacity="1" stroke-width="5.6000000000000005" d=" M-20.548999786376953,-4.929999828338623 C-20.548999786376953,-4.929999828338623 -20.548999786376953,12.746999740600586 -20.548999786376953,12.746999740600586 C-20.548999786376953,12.746999740600586 -2.927000045776367,12.746999740600586 -2.927000045776367,12.746999740600586"></path></g></g><g transform="matrix(-4.5,0,0,-4.5,292.75,305.125)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(226,226,226)" stroke-opacity="1" stroke-width="5.6000000000000005" d=" M28.945999145507812,-27.937000274658203 C28.966999053955078,-9.605999946594238 29.014999389648438,33.75299835205078 29.034000396728516,50.236000061035156"></path></g></g><g transform="matrix(-3.1819803714752197,3.1819803714752197,-3.1819803714752197,-3.1819803714752197,136.79869079589844,173.43174743652344)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(226,226,226)" stroke-opacity="1" stroke-width="5.6000000000000005" d=" M-20.548999786376953,-4.929999828338623 C-20.548999786376953,-4.929999828338623 -20.548999786376953,12.746999740600586 -20.548999786376953,12.746999740600586 C-20.548999786376953,12.746999740600586 -2.927000045776367,12.746999740600586 -2.927000045776367,12.746999740600586"></path></g></g><g clip-path="url(#__lottie_element_404)" transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"></g></g></svg></div>
+			                                    <div ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" preserveAspectRatio="xMidYMid meet" style={{"width": "100%", "height": "100%", "transform": "translate3d(0px, 0px, 0px)", "content-visibility": "visible"}}><defs><clipPath id="__lottie_element_402"><rect width="500" height="500" x="0" y="0"></rect></clipPath><clipPath id="__lottie_element_404"><path d="M0,0 L500,0 L500,500 L0,500z"></path></clipPath></defs><g clip-path="url(#__lottie_element_402)"><g transform="matrix(4.5,0,0,4.5,207.25,194.875)" opacity="1" style={{"display": "block"}}><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(226,226,226)" stroke-opacity="1" stroke-width="5.6000000000000005" d=" M28.945999145507812,-27.937000274658203 C28.966999053955078,-9.605999946594238 29.014999389648438,33.75299835205078 29.034000396728516,50.236000061035156"></path></g></g><g transform="matrix(3.1819803714752197,-3.1819803714752197,3.1819803714752197,3.1819803714752197,363.2012939453125,326.5682373046875)" opacity="1" style={{"display": "block"}}><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(226,226,226)" stroke-opacity="1" stroke-width="5.6000000000000005" d=" M-20.548999786376953,-4.929999828338623 C-20.548999786376953,-4.929999828338623 -20.548999786376953,12.746999740600586 -20.548999786376953,12.746999740600586 C-20.548999786376953,12.746999740600586 -2.927000045776367,12.746999740600586 -2.927000045776367,12.746999740600586"></path></g></g><g transform="matrix(-4.5,0,0,-4.5,292.75,305.125)" opacity="1" style={{"display": "block"}}><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(226,226,226)" stroke-opacity="1" stroke-width="5.6000000000000005" d=" M28.945999145507812,-27.937000274658203 C28.966999053955078,-9.605999946594238 29.014999389648438,33.75299835205078 29.034000396728516,50.236000061035156"></path></g></g><g transform="matrix(-3.1819803714752197,3.1819803714752197,-3.1819803714752197,-3.1819803714752197,136.79869079589844,173.43174743652344)" opacity="1" style={{"display": "block"}}><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(226,226,226)" stroke-opacity="1" stroke-width="5.6000000000000005" d=" M-20.548999786376953,-4.929999828338623 C-20.548999786376953,-4.929999828338623 -20.548999786376953,12.746999740600586 -20.548999786376953,12.746999740600586 C-20.548999786376953,12.746999740600586 -2.927000045776367,12.746999740600586 -2.927000045776367,12.746999740600586"></path></g></g><g clip-path="url(#__lottie_element_404)" transform="matrix(1,0,0,1,0,0)" opacity="1" style={{"display": "block"}}></g></g></svg></div>
 			                                </div>
 			                                <div class="exch_bg mb-4">
 			                                    
@@ -385,7 +285,7 @@ export const ETH = () => {
 			                </div>
 			            </div>
 			            <div class="dead_line">
-			                <p style="color:black">
+			                <p style={{"color":"black"}}>
 			                    Transaction deadline
 			                </p>
 			                <div class="seting_rate">
@@ -399,15 +299,7 @@ export const ETH = () => {
 			        </div>
 			    </div>
 			</div>
-			<script>
-			    function openNav10() {
-			        document.getElementById("myNav10").style.display = "block"
-			    }
-
-			    function closeNav10() {
-			        document.getElementById("myNav10").style.display = "none"
-			    }
-			</script>
+			
 			{/* <!-----modal popup 10 for connect to wallet end--->
 			<!-----modal popup 11 for connect to wallet start---> */}
 			<div id="myNav11" class="overlay11 textcenter">
@@ -429,15 +321,7 @@ export const ETH = () => {
 			        </div>
 			    </div>
 			</div>
-			<script>
-			    function openNav11() {
-			        document.getElementById("myNav11").style.display = "block"
-			    }
-
-			    function closeNav11() {
-			        document.getElementById("myNav11").style.display = "none"
-			    }
-			</script>
+			
 			{/* <!-----modal popup 11 for connect to wallet end-->
 			<!-------=========Liquidity page modal popup end=========---->
             <!-------exchange page start------>
@@ -445,16 +329,7 @@ export const ETH = () => {
         </div>
 	</div>
 	{/* <!------=======js start======------> */}
-	<script src="assets/js/popper.min.js.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    {/* <!---js end--> */}
-    <script type="text/javascript">
-        (document).ready(function () {
-            ('#sidebarCollapse').on('click', function () {
-                ('#sidebar').toggleClass('active');
-            })
-        });
-    </script>
+
 
 
 
@@ -541,15 +416,7 @@ export const ETH = () => {
             </div>
         </div>
     </div>
-    <script>
-        function openNav9() {
-            document.getElementById("myNav9").style.display = "block"
-        }
-
-        function closeNav9() {
-            document.getElementById("myNav9").style.display = "none"
-        }
-    </script>
+ 
     {/* <!-----modal popup 8 for connect to wallet end--> */}
 
 
@@ -693,25 +560,6 @@ export const ETH = () => {
             </div>
         </div>
     </div>
-    <script>
-        function openNav8() {
-            document.getElementById("myNav8").style.display = "block"
-        }
-
-        function closeNav8() {
-            document.getElementById("myNav8").style.display = "none"
-        }
-    </script>
-     	{/* <script>
-        $(function () {
-            $("#datepicker").datepicker()
-        });
-    </script>
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element')
-        }
-    </script> */}
 
 
     {/* <!-----select token modal popup 8 for connect to wallet end-->
