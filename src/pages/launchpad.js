@@ -31,7 +31,7 @@ export const Launchpad = () => {
                                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pool</a>
                                             <div class="dropdown-menu">
                                                 <Link class="dropdown-item" to="/browse">Browse</Link>
-                                                <Link class="dropdown-item" to="/import">Import</Link>
+                                                <Link class="dropdown-item" to="/imports">Import</Link>
                                                 <Link class="dropdown-item" to="/migrate">Migrate</Link>
                                             </div>
                                         </li>
@@ -81,7 +81,7 @@ export const Launchpad = () => {
                                 </nav>
                             </div>
                             {/* <!---=====top navbar end=======---> */}
-                            <button class="btn button btn-success d-inline-block ml-auto contact" onclick="openNav9()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class='fas fa-wallet'></i>
+                            <button class="btn button btn-success d-inline-block ml-auto contact"  onClick={() => window.openNav9()} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class='fas fa-wallet'></i>
                                 Connect wallet
                             </button>
 
@@ -381,7 +381,7 @@ export const Launchpad = () => {
                     <div id="myNav10" class="overlay10 textcenter">
                         <div class="setting_close">
                             <span class="tokenset">Settings</span>
-                            <span onclick="closeNav10()">&times;</span>
+                            <span  onClick={() => window.closeNav10()}>&times;</span>
                         </div>
                         <div class="bx_shadow"></div>
                         <div class="overlay10-content">
@@ -428,7 +428,7 @@ export const Launchpad = () => {
                     <div id="myNav11" class="overlay11 textcenter">
                         <div class="setting_close">
                             <span class="tokenset">Recent Transactions</span>
-                            <span onclick="closeNav11()">&times;</span>
+                            <span  onClick={() => window.closeNav11()}>&times;</span>
                         </div>
                         <div class="bx_shadow"></div>
                         <div class="overlay11-content">
@@ -438,7 +438,7 @@ export const Launchpad = () => {
                                         Please connect your wallet to view your recent transactions
                                     </p>
                                     <div class="btn_close">
-                                        <button class="btn" onclick="closeNav11()">Close</button>
+                                        <button class="btn"  onClick={() => window.closeNav11()}>Close</button>
                                     </div>
                                 </div>
                             </div>
@@ -463,7 +463,7 @@ export const Launchpad = () => {
             <div id="myNav9" class="overlay9 textcenter">
                 <div class="setting_close">
                     <span class="tokenset">Connect to a wallet</span>
-                    <span onclick="closeNav9()">&times;</span>
+                    <span  onClick={() => window.closeNav9()}>&times;</span>
                 </div>
                 <div class="bx_shadow"></div>
                 <div class="overlay9-content">
@@ -548,7 +548,7 @@ export const Launchpad = () => {
             <div id="myNav8" class="overlay8 textcenter">
                 <div class="setting_close">
                     <span class="tokenset font_normal">Select a token <i class="fa fa-question"></i></span>
-                    <span onclick="closeNav8()">&times;</span>
+                    <span  onClick={() => window.closeNav8()}>&times;</span>
                 </div>
                 <div class="overlay8-content">
                     <div class="swapbg8">

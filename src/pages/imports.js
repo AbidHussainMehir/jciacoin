@@ -82,7 +82,7 @@ export const Imports = () => {
                 </nav>
               </div>
               {/* <!---=====top navbar end=======---> */}
-              <button class="btn button btn-success d-inline-block ml-auto contact" onclick="openNav9()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class='fas fa-wallet'></i>
+              <button class="btn button btn-success d-inline-block ml-auto contact" onClick={() => window.openNav9()} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class='fas fa-wallet'></i>
                 Connect wallet
               </button>
 
@@ -124,7 +124,7 @@ export const Imports = () => {
                                   <div class="exchange_tools">
                                     <div class="bnb_btn bnb_position">
                                       <span class="swap_from">Swap From</span>
-                                      <button onclick="openNav8()">
+                                      <button onClick={() => window.openNav8()}>
                                         <img src="assets/image/eth.jpg" />
                                         <span><b>ETH</b></span>
                                         <i class="fa fa-chevron-down"></i>
@@ -139,7 +139,7 @@ export const Imports = () => {
                               <div class="exchange_arrow">
                                 <i class="fa fa-sort"></i>
                                 <div >
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></div>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></div>
                               </div>
                               <div class="exch_bg mb-4">
 
@@ -147,7 +147,7 @@ export const Imports = () => {
                                   <div class="exchange_tools">
                                     <div class="bnb_btn bnb_position">
                                       <p class="swap_from">Swap To (est):</p>
-                                      <button class="min_wth" onclick="openNav8()">
+                                      <button class="min_wth" onClick={() => window.openNav8()}>
                                         <div class="bnbRotate"></div>
                                         <span class="selct_tkn" style={{ "position": "relative !important", "top": "13px !important", "left": "10px" }}>Select a token</span>
                                       </button>
@@ -160,7 +160,7 @@ export const Imports = () => {
                               </div>
 
                               <div class="wallet_btn mr_set">
-                                <button class="btn button btn-success" onclick="openNav9()">Connect to a Wallet</button>
+                                <button class="btn button btn-success" onClick={() => window.openNav9()}>Connect to a Wallet</button>
                               </div>
                             </div>
 
@@ -239,7 +239,7 @@ export const Imports = () => {
           <div id="myNav10" class="overlay10 textcenter">
             <div class="setting_close">
               <span class="tokenset">Settings</span>
-              <span onclick="closeNav10()">&times;</span>
+              <span  onClick={() => window.closeNav10()}>&times;</span>
             </div>
             <div class="bx_shadow"></div>
             <div class="overlay10-content">
@@ -286,7 +286,7 @@ export const Imports = () => {
           <div id="myNav11" class="overlay11 textcenter">
             <div class="setting_close">
               <span class="tokenset">Recent Transactions</span>
-              <span onclick="closeNav11()">&times;</span>
+              <span  onClick={() => window.closeNav11()}>&times;</span>
             </div>
             <div class="bx_shadow"></div>
             <div class="overlay11-content">
@@ -296,7 +296,7 @@ export const Imports = () => {
                     Please connect your wallet to view your recent transactions
                   </p>
                   <div class="btn_close">
-                    <button class="btn" onclick="closeNav11()">Close</button>
+                    <button class="btn"  onClick={() => window.closeNav11()}>Close</button>
                   </div>
                 </div>
               </div>
@@ -318,7 +318,7 @@ export const Imports = () => {
       <div id="myNav9" class="overlay9 textcenter">
         <div class="setting_close">
           <span class="tokenset">Connect to a wallet</span>
-          <span onclick="closeNav9()">&times;</span>
+          <span  onClick={() => window.closeNav9()}>&times;</span>
         </div>
         <div class="bx_shadow"></div>
         <div class="overlay9-content">
@@ -403,7 +403,7 @@ export const Imports = () => {
       <div id="myNav8" class="overlay8 textcenter">
         <div class="setting_close">
           <span class="tokenset font_normal">Select a token <i class="fa fa-question"></i></span>
-          <span onclick="closeNav8()">&times;</span>
+          <span  onClick={() => window.closeNav8()}>&times;</span>
         </div>
         <div class="overlay8-content text-left" >
           <div class="swapbg8">

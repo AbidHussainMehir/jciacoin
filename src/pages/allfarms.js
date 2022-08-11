@@ -84,7 +84,7 @@ export const AllFarms = () => {
 					    </nav>
 					</div>
 					{/* <!---=====top navbar end=======---> */}
-                    <button class="btn button btn-success d-inline-block ml-auto contact" onclick="openNav9()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class='fas fa-wallet'></i>
+                    <button class="btn button btn-success d-inline-block ml-auto contact"  onClick={() => window.openNav9()} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class='fas fa-wallet'></i>
                         Connect wallet
                     </button> 
 
@@ -287,7 +287,7 @@ export const AllFarms = () => {
 			                            <div class="exchange_tab">
 			                            	<div class="setting_close">
 			                                <span class="tokenset1">Manage liquidity <i class="fa fa-question-circle myDIV" aria-hidden="true"></i></span>
-			                                <span onclick="closeNav10()">&times;</span>
+			                                <span  onClick={() => window.openNav10()}>&times;</span>
 			                                <div class="hide">I am shown when someone hovers over the div above.</div>
 
 			                             </div>
@@ -315,7 +315,7 @@ export const AllFarms = () => {
                                                         <input type="checkbox" checked/>
                                                          <span class="slider round"></span>
                                                         </label>
-                                                        <span class="tools_img" onclick="openNav20()">
+                                                        <span class="tools_img"  onClick={() => window.openNav20()}>
 			                                            <i class="fa fa-cog"></i>
 			                                            </span>
 			                                    	</div>
@@ -384,7 +384,7 @@ export const AllFarms = () => {
 			                                </div>
 			                               <div class="flex justify-center"><button class="hover:bg-gradient-to-b hover:from-black/20 focus:to-black/20 focus:bg-gradient-to-b focus:from-black/20 hover:to-black/20 active:bg-gradient-to-b active:from-black/40 active:to-black/40 disabled:pointer-events-none disabled:opacity-40 bg-clip-text text-transparent bg-blue text-xs rounded font-bold flex items-center justify-center gap-1 color_bg_btn rounded-none">Use WETH instead of ETH</button></div>
 			                                <div class="w">
-			                                    <button class=" btn-success1" onclick="openNav9()">Connect to a Wallet</button>
+			                                    <button class=" btn-success1"  onClick={() => window.openNav9()}>Connect to a Wallet</button>
 			                                </div>
 			                            </div>
 			                        </div>
@@ -398,7 +398,7 @@ export const AllFarms = () => {
 			<div id="myNav11" class="overlay11 textcenter">
 			    <div class="setting_close">
 			        <span class="tokenset">Recent Transactions</span>
-			        <span onclick="closeNav11()">&times;</span>
+			        <span  onClick={() => window.openNav11()}>&times;</span>
 			    </div>
 			    <div class="bx_shadow"></div>
 			    <div class="overlay11-content">
@@ -408,7 +408,7 @@ export const AllFarms = () => {
 			                    Please connect your wallet to view your recent transactions
 			                </p>
 			                <div class="btn_close">
-			                    <button class="btn" onclick="closeNav11()">Close</button>
+			                    <button class="btn"  onClick={() => window.openNav11()}>Close</button>
 			                </div>
 			            </div>
 			        </div>
@@ -432,7 +432,7 @@ export const AllFarms = () => {
     <div id="myNav9" class="overlay9 textcenter">
         <div class="setting_close">
             <span class="tokenset">Connect to a wallet</span>
-            <span onclick="closeNav9()">&times;</span>
+            <span  onClick={() => window.openNav9()}>&times;</span>
         </div>
         <div class="bx_shadow"></div>
         <div class="overlay9-content">
@@ -517,7 +517,7 @@ export const AllFarms = () => {
     <div id="myNav8" class="overlay8 textcenter">
         <div class="setting_close">
             <span class="tokenset font_normal">Select a token <i class="fa fa-question"></i></span>
-            <span onclick="closeNav8()">&times;</span>
+            <span  onClick={() => window.openNav8()}>&times;</span>
         </div>
         <div class="overlay8-content">
             <div class="swapbg8">
@@ -613,7 +613,7 @@ export const AllFarms = () => {
  <div id="myNav10" class="overlay10 textcenter">
 			    <div class="setting_close">
 			        <span class="tokenset">Settings</span>
-			        <span onclick="closeNav10()">&times;</span>
+			        <span  onClick={() => window.openNav10()}>&times;</span>
 			    </div>
 			    <div class="bx_shadow"></div>
 			    <div class="overlay10-content">

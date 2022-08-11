@@ -79,7 +79,7 @@ export const Header = () => {
                         </li> 
 
                          <li>
-                            <Link to="/gameassets"><i class="fas fa-gamepad" style={{"color":"#fff"}} aria-hidden="true"></i>Game Assets</Link>
+                            <Link to="/gameasserts"><i class="fas fa-gamepad" style={{"color":"#fff"}} aria-hidden="true"></i>Game Assets</Link>
                         </li> 
                          
                     </ul>

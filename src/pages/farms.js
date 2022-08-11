@@ -83,7 +83,7 @@ export const Farms = () => {
 					    </nav>
 					</div>
 					{/* <!---=====top navbar end=======---> */}
-                    <button class="btn button btn-success d-inline-block ml-auto contact" onclick="openNav9()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class='fas fa-wallet'></i>
+                    <button class="btn button btn-success d-inline-block ml-auto contact"  onClick={() => window.openNav9()} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class='fas fa-wallet'></i>
                         Connect wallet
                     </button> 
 
@@ -227,7 +227,7 @@ export const Farms = () => {
     <div id="myNav9" class="overlay9 textcenter">
         <div class="setting_close">
             <span class="tokenset">Connect to a wallet</span>
-            <span onclick="closeNav9()">&times;</span>
+            <span  onClick={() => window.closeNav9()}>&times;</span>
         </div>
         <div class="bx_shadow"></div>
         <div class="overlay9-content">
