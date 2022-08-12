@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import { Header } from '../components/Header';
+import { Footer,Header, Nav ,Tokens,Wallets} from '../components'
+
 
 export const Gameasserts = () => {
   return (
@@ -16,83 +16,8 @@ export const Gameasserts = () => {
         {/* <!---============Top menu Dashboard start==============---> */}
         <div class="body_content_wrap" id="myHeader">
             {/* <!----top navbar start--> */}
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid set_nav_width">
-                    <button type="button" id="sidebarCollapse" class="btn btn-primary custom_btn_set">
-                        <i class="fa fa-bars" style={{"color":"#fff"}}></i>
-                    </button>
-                   	<div class="top_navbar">
-					
-					    <nav class="navbar navbar-expand-sm navbar-dark" style={{"border-bottom": "unset"}}>
-					        <a class="navbar-brand" href="/">
-					        	<img src="assets/image/logo.png" />
-					        </a>
-					        <ul class="navbar-nav">
-					            <li class="nav-item">
-					                <a class="nav-link" href="/">Swap</a>
-					            </li>
-					            <li class="nav-item dropdown">
-					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pool</a>
-					                <div class="dropdown-menu">
-					                    <Link class="dropdown-item" to="/browse">Browse</Link>
-					                    <Link class="dropdown-item" to="/import">Import</Link>
-					                     <Link class="dropdown-item" to="/migrate">Migrate</Link>
-					                </div>
-					            </li>
-					            <li class="nav-item dropdown">
-					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Trade</a>
-					                <div class="dropdown-menu">
-					                    <Link class="dropdown-item" to="/swap">Exchange</Link>
-					                    <Link class="dropdown-item" to="/liquidity">Liquidity</Link>
-					                </div>
-					            </li>
-					            <li class="nav-item dropdown">
-					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Game</a>
-					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="https://www.game.cstswap.io/" target="_blank">Game</a>
-					                    <a class="dropdown-item" href="https://www.game2.cstswap.io/" target="_blank">Game 2</a>
-					                </div>
-					            </li>
-					            <li class="nav-item dropdown">
-					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Farm</a>
-					                <div class="dropdown-menu">
-					                    <Link class="dropdown-item" to="/Farm">Your Farms</Link>
-					                    <Link class="dropdown-item" to="/AllFarm">All Farms</Link>
-					                </div>
-					            </li>
-					            <li class="nav-item"><a class="nav-link" href="#" target="_blank">NFT</a></li>
-					            <li class="nav-item dropdown">
-					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">NFT Marketplace</a>
-					                <div class="dropdown-menu">
-					                    <Link class="dropdown-item" to="/explore" target="_blank">Explore</Link>
-					                    <Link class="dropdown-item" to="/openmarket" target="_blank">Open Market</Link>
-					                     <Link class="dropdown-item" to="/gameassets" target="_blank">Game Assets</Link>
-					                </div>
-					            </li>
-
-					             <li class="nav-item"><Link class="nav-link" to="/Launchpad" target="_blank">Launchpad</Link></li>
-
-					            <li class="nav-item dropdown">
-					                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Contact</a>
-					                <div class="dropdown-menu">
-					                    <a class="dropdown-item" href="#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-					                    <a class="dropdown-item" href="#" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
-					                     <a class="dropdown-item" href="#" target="_blank"><i class="fa fa-telegram"></i> Telegram</a>
-					                      <a class="dropdown-item" href="#" target="_blank"><i class="fa fa-medium"></i> Medium</a>
-					                </div>
-					            </li>
-					        </ul>
-					    </nav>
-					</div>
-					{/* <!---=====top navbar end=======---> */}
-                    <button class="btn button btn-success d-inline-block ml-auto contact"  onClick={() => window.openNav9()} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class='fas fa-wallet'></i>
-                        Connect wallet
-                    </button> 
-
-                    
-                </div>
-            </nav>
-            {/* <!---============Body section start==================--->
+			<Nav/>
+          {/* <!---============Body section start==================--->
             <!-------exchange page start------> */}
              <section>
 			    <div class="container">
@@ -250,63 +175,7 @@ export const Gameasserts = () => {
 			    </div>
 			</section>
 			<footer class="footer_section">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-3">
-							<div class="footer_col1">
-								<img src="assets/image/logo.png"/>
-								<p>Our community is building a comprehensive decentralized trading platform for the future of finance. Join us!</p>
-								<ul>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-									<li><a href="#"><i class="fab fa-discord"></i></a></li>
-									<li><a href="#"><i class="fab fa-medium"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-8">
-							<div class="row">
-								<div class="col-md-3">
-									<div class="footer_col2">
-										<h2>Products</h2>
-										<ul>
-											<li><a href="#">Liquidity Pools</a></li>
-											<li><a href="#">Lending</a></li>
-											<li><a href="#">Launchpad</a></li>
-											 <li><a href="#">Tool</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="footer_col2">
-										<h2>Help</h2>
-										<ul>
-											<li><a href="#">Ask on Discord</a></li>
-											<li><a href="#">Ask on Twitter</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="footer_col2">
-										<h2>Developers</h2>
-										<ul>
-											<li><a href="#">Github</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="footer_col2">
-										<h2>Protocol</h2>
-										<ul>
-											<li><a href="#">Apply for partnership</a></li>
-											<li><a href="#">Vesting</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<Footer/>
 			</footer>
 			{/* <!-------exchange page end------>
 			<!-------=========Liquidity page modal popup start=========---->
@@ -391,83 +260,7 @@ export const Gameasserts = () => {
    	================================================================----->
    	<!-----modal popup 9 for connect to wallet start--> */}
     <div id="myNav9" class="overlay9 textcenter">
-        <div class="setting_close">
-            <span class="tokenset">Connect to a wallet</span>
-            <span  onClick={() => window.closeNav9()}>&times;</span>
-        </div>
-        <div class="bx_shadow"></div>
-        <div class="overlay9-content">
-            <div class="swapbg9">
-                <div class="connect_wallet">
-                    {/* <!----wallet box 1--> */}
-                    <button class="connect_metamast">
-                        <div class="wallet_name">
-                            <h3>Metamask</h3>
-                        </div>
-                        <div class="wallet_name">
-                            <img src="assets/image/meta_mask.png" />
-                        </div>
-                    </button>
-                    {/* <!----wallet box 2--> */}
-                    <button class="connect_metamast">
-                        <div class="wallet_name">
-                            <h3>TrustWallet</h3>
-                        </div>
-                        <div class="wallet_name">
-                            <img src="assets/image/trust_wallet.png" />
-                        </div>
-                    </button>
-                    {/* <!----wallet box 3--> */}
-                    <button class="connect_metamast">
-                        <div class="wallet_name">
-                            <h3>MathWallet</h3>
-                        </div>
-                        <div class="wallet_name">
-                            <img src="assets/image/math_wallet.png" />
-                        </div>
-                    </button>
-                    {/* <!----wallet box 4--> */}
-                    <button class="connect_metamast">
-                        <div class="wallet_name">
-                            <h3>MathWallet</h3>
-                        </div>
-                        <div class="wallet_name">
-                            <img src="assets/image/math_wallet.png" />
-                        </div>
-                    </button>
-                    {/* <!----wallet box 5--> */}
-                    <button class="connect_metamast">
-                        <div class="wallet_name">
-                            <h3>WalletConnect</h3>
-                        </div>
-                        <div class="wallet_name">
-                            <img src="assets/image/connect_wallet.png" />
-                        </div>
-                    </button>
-                    {/* <!----wallet box 6--> */}
-                    <button class="connect_metamast">
-                        <div class="wallet_name">
-                            <h3>Binance Chain Wallet</h3>
-                        </div>
-                        <div class="wallet_name">
-                            <img src="assets/image/binance_chain_wallet.png" />
-                        </div>
-                    </button>
-                    {/* <!----wallet box 7--> */}
-                    <button class="connect_metamast">
-                        <div class="wallet_name">
-                            <h3>SafePal Wallet</h3>
-                        </div>
-                        <div class="wallet_name">
-                            <img src="assets/image/safepal_wallet.png" />
-                        </div>
-                    </button>
-                    <div class="connect_info">
-                        <a href="#"><i class="fa fa-question"></i>Learn how to connect</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Wallets/>
     </div>
   
     {/* <!-----modal popup 8 for connect to wallet end--> */}
@@ -488,83 +281,8 @@ export const Gameasserts = () => {
                     </div>
                 </div>
                 <div class="chose_token">
-                    <div class="token_name">Token Name</div>
-                    <div class="token_arrow">
-                        <img src="assets/image/arrow_down.png" />
-                    </div>
-                </div>
-                <div class="all_token scroll_track">
-                    {/* <!----token list 1----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/bnb.png" />BNB</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                    {/* <!----token list 2----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/ADA.png" />ADA</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                    {/* <!----token list 3----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/ALPHA.png" />ALPHA</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                    {/* <!----token list 4----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/ANKR.png" />ANKR</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                    {/* <!----token list 5----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/ATM.png" />ATM</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                    {/* <!----token list 6----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/ATOM.png" />ATOM</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                    {/* <!----token list 7----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/BAKE.png" />BAKE</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                    {/* <!----token list 8----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/bLBT.png" />bLBT</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                    {/* <!----token list 9----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/usdt.png" />USDT</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                    {/* <!----token list 10----> */}
-                    <div class="token_list">
-                        <div class="token_icon">
-                            <h2><img src="assets/image/wbnb.png" />WBNB</h2>
-                        </div>
-                        <div class="token_list"></div>
-                    </div>
-                </div>
+                    <Tokens/>
+					</div>
             </div>
         </div>
     </div>
