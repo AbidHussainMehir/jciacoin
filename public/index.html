@@ -9,22 +9,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>jciacoin.com</title>
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/image/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/dashboardNav.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">  
-	<script type="text/javascript" src="assets/js/webtranslator.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -39,7 +24,47 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jciacoin.com</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="%PUBLIC_URL%/image/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/css/dashboardNav.css"
+    />
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/custom.css" />
+    <script type="text/javascript" src="%PUBLIC_URL%/js/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <script
+      type="text/javascript"
+      src="%PUBLIC_URL%/js/webtranslator.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -54,151 +79,54 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="assets/js/popper.min.js.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/element.js"></script>
-    <script>
-      //home component scripts start
 
-      function openNav10() {
-          document.getElementById("myNav10").style.display = "block";
-      }
-
-      function closeNav10() {
-          document.getElementById("myNav10").style.display = "none";
-      }
- 
-      function openNav11() {
-          document.getElementById("myNav11").style.display = "block";
-      }
-
-      function closeNav11() {
-          document.getElementById("myNav11").style.display = "none";
-      }
-
-    
-    
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').toggleClass('active');
-            });
+    <script src="%PUBLIC_URL%/js/popper.min.js.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
+    <!---js end-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#sidebarCollapse").on("click", function () {
+          $("#sidebar").toggleClass("active");
         });
-    
+      });
+    </script>
 
-    
+    <script>
       function openNav9() {
-          document.getElementById("myNav9").style.display = "block";
+        console.log("called");
+        document.getElementById("myNav9").style.display = "block";
       }
 
       function closeNav9() {
-          document.getElementById("myNav9").style.display = "none";
+        document.getElementById("myNav9").style.display = "none";
       }
-  
+    </script>
+
+    <script>
       function openNav8() {
-          document.getElementById("myNav8").style.display = "block";
+        document.getElementById("myNav8").style.display = "block";
       }
 
       function closeNav8() {
-          document.getElementById("myNav8").style.display = "none";
+        document.getElementById("myNav8").style.display = "none";
       }
- 
+    </script>
+
+    <!-- <script>
       $(function () {
-          $("#datepicker").datepicker();
+        $("#datepicker").datepicker();
       });
-  
+    </script> -->
+    <script type="text/javascript">
       function googleTranslateElementInit() {
-          new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element"
+        );
       }
-      //home component scripts end
-
-      //swap component scripts start
-      function openNav10() {
-			        document.getElementById("myNav10").style.display = "block";
-			    }
-
-			    function closeNav10() {
-			        document.getElementById("myNav10").style.display = "none";
-			    }
-          function openNav11() {
-			        document.getElementById("myNav11").style.display = "block";
-			    }
-
-			    function closeNav11() {
-			        document.getElementById("myNav11").style.display = "none";
-			    }
-                
-          $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').toggleClass('active');
-            })
-        });
-        function openNav9() {
-            document.getElementById("myNav9").style.display = "block";
-        }
-
-        function closeNav9() {
-            document.getElementById("myNav9").style.display = "none";
-        }
-        function openNav8() {
-            document.getElementById("myNav8").style.display = "block";
-        }
-
-        function closeNav8() {
-            document.getElementById("myNav8").style.display = "none";
-        }
-        $(function () {
-            $("#datepicker").datepicker()
-        });
-        //swap component scripts end
-          // browse 
-        function openNav10() {
-			        document.getElementById("myNav10").style.display = "block";
-			    }
-
-			    function closeNav10() {
-			        document.getElementById("myNav10").style.display = "none";
-			    }
-          function openNav11() {
-			        document.getElementById("myNav11").style.display = "block";
-			    }
-
-			    function closeNav11() {
-			        document.getElementById("myNav11").style.display = "none";
-			    }
-          
-        function openNav9() {
-            document.getElementById("myNav9").style.display = "block";
-        }
-
-        function closeNav9() {
-            document.getElementById("myNav9").style.display = "none";
-        }
-        function openNav8() {
-            document.getElementById("myNav8").style.display = "block";
-        }
-
-        function closeNav8() {
-            document.getElementById("myNav8").style.display = "none";
-        }
-        //browse end
-        //imports 
-        function googleTranslateElementInit() {
-	  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
-	}
-    $(function () {
-            $("#datepicker").datepicker();
-        });
-
-
-  </script>
-  <script>
-    function openNav9() {
-        document.getElementById("myNav9").style.display = "block";
-    }
-
-    function closeNav9() {
-        document.getElementById("myNav9").style.display = "none";
-    }
-</script>
+    </script>
   </body>
 </html>
