@@ -7,11 +7,10 @@ export const Gameasserts = () => {
     <>
 
 	<div className="wrapper">
-		{/* <!---==================Sidebar start====================---> */}
+
 		<Header/>
 
       
-        {/* <!---==================Sidebar end====================---> */}
 
         {/* <!---============Top menu Dashboard start==============---> */}
         <div className="body_content_wrap" id="myHeader">
@@ -255,9 +254,7 @@ export const Gameasserts = () => {
 	</div>
 	
 
-    {/* <!----================================================================
-   	====================All modal popup start=============================
-   	================================================================----->
+    {/* <!----========All modal popup start==========----->
    	<!-----modal popup 9 for connect to wallet start--> */}
     <div id="myNav9" className="overlay9 textcenter">
         <Wallets/>

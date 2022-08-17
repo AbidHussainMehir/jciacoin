@@ -1,25 +1,22 @@
 import React from 'react'
-import { Footer, Header, Nav, Wallets, Tokens  } from '../components'
+import { Footer, Header, Nav, Wallets, Tokens, TokensList  } from '../components'
 
 
 export const Imports = () => {
   return (
     <>
       <div class="wrapper">
-        {/* <!---==================Sidebar start====================---> */}
         <Header />
 
-        {/* <!---==================Sidebar end====================--->
 
-        <!---============Top menu Dashboard start==============---> */}
+        {/* <!---============Top menu Dashboard start==============--->  */}
         <div class="body_content_wrap" id="myHeader">
           {/* <!----top navbar start--> */}
           <Nav />
 
-          {/* <!---=====top navbar end=======--->
 
-            <!---============Body section start==================--->
-            <!-------exchange page start------> */}
+            {/* <!---============Body section start==================---> */}
+            {/* <!-------exchange page start------>  */}
           <section>
             <div class="container-fluid">
               <div class="row">
@@ -182,9 +179,7 @@ export const Imports = () => {
       </div>
 
 
-      {/* <!----================================================================
-   	====================All modal popup start=============================
-   	================================================================-----> */}
+      {/* <!----=======All modal popup start=============-----> */}
       {/* <!-----modal popup 9 for connect to wallet start--> */}
       <div id="myNav9" class="overlay9 textcenter">
         <Wallets />
@@ -212,45 +207,10 @@ export const Imports = () => {
                 <p>Common bases</p>
 
               </div>
-              <div class="eth">
-                <div class="eth_img">
-                  <img alt='' src="assets/image/eth1.jpg" /> ETH
-                </div>
-                <div class="eth_img">
-                  <img alt='' src="assets/image/sushi.jpg" /> SUSHI
-                </div>
-                <div class="eth_img">
-                  <img alt='' src="assets/image/wbtr.jpg" /> WBTR
-                </div>
-                <div class="eth_img">
-                  <img alt='' src="assets/image/mim.jpg" />  MIM
-                </div>
-                <div class="eth_img">
-                  <img alt='' src="assets/image/spell.webp" />  SPELL
-                </div>
+              {/* Tokens list here */}
 
-
-              </div>
-
-              <div class="eth">
-                <div class="eth_img">
-                  <img alt='' src="assets/image/ice.webp" /> ICE
-                </div>
-                <div class="eth_img">
-                  <img alt='' src="assets/image/usdc.jpg" /> USDC
-                </div>
-                <div class="eth_img">
-                  <img alt='' src="assets/image/usdt.jpg" /> USDT
-                </div>
-                <div class="eth_img">
-                  <img alt='' src="assets/image/dai.png" />  DAI
-                </div>
-                <div class="eth_img">
-                  <img alt='' src="assets/image/frax.webp" />  FRAX
-                </div>
-
-
-              </div>
+              <TokensList/>
+              
 
 
               <div class="chose_token">

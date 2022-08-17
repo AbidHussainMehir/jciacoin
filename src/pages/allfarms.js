@@ -31,28 +31,7 @@ export const AllFarms = () => {
 											{/* <!-- Tab panes --> */}
 
 											<FarmPair/>
-											{/* <div className="tab-content">
-												<div className="container-fluid set_nav_width">
-													<div className="row">
-														<div className="col-md-12">
-															<div className="flex">
-																<div className="top_pading">
-																	<h1 className="farm">Farm Menu</h1>
-																	<p className="farm1">Earn fees and rewards by depositing and staking your tokens to the platform.</p>
-																</div>
-																<div className="bottom">
-																	<button className="btn-success1">
-																		Apply for Farm Pairs
-																	</button>
-																</div>
-															</div>
-														</div>
-
-
-													</div>
-												</div>
-
-											</div> */}
+											
 										</div>
 									</div>
 								</div>
@@ -75,18 +54,7 @@ export const AllFarms = () => {
 									<DropDown />
 
  
-									{/* <div className="col-md-2">
-			  	    	
-			  	    	 <div className="dropdown">
-						    <button className="btn2 dropdown-toggle" type="button" data-toggle="dropdown">Your Farms
-						    </button>
-						    <ul className="dropdown-menu">
-						      <li><a href="#">All Farms</a></li>
-						      <li><a href="#">Kashi Farms</a></li>
-						      <li><a href="#">Wireswap Farms</a></li>
-						    </ul>
-						  </div>													
-			  	    </div> */}
+								
 
 								</div>
 								<div className="row">

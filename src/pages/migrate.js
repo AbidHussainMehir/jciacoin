@@ -7,20 +7,17 @@ export const Migrate = () => {
         <>
 
             <div class="wrapper">
-                {/* <!---==================Sidebar start====================---> */}
                 <Header/>
              
-                {/* <!---==================Sidebar end====================---> */}
 
                 {/* <!---============Top menu Dashboard start==============---> */}
                 <div class="body_content_wrap" id="myHeader">
                     {/* <!----top navbar start--> */}
                     <Nav/>
                     
-                    {/* <!---=====top navbar end=======--->
 
-            <!---============Body section start==================--->
-            <!-------exchange page start------> */}
+            {/* <!---============Body section start==================---> */}
+            {/* <!-------exchange page start------>  */}
                     <section>
                         <div class="container-fluid">
                             <div class="row" >

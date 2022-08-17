@@ -8,20 +8,18 @@ export const Openmarket = () => {
 		<>
 
 			<div class="wrapper">
-				{/* <!---==================Sidebar start====================---> */}
+
 				<Header />
 
-				{/* <!---==================Sidebar end====================---> */}
 
 				{/* <!---============Top menu Dashboard start==============---> */}
 				<div class="body_content_wrap" id="myHeader">
 					{/* <!----top navbar start--> */}
 					<Nav />
 
-					{/* <!---=====top navbar end=======--->
 
-            <!---============Body section start==================--->
-            <!-------exchange page start------> */}
+            {/* <!---============Body section start==================---> */}
+            {/* <!-------exchange page start------>  */}
 					<section>
 						<div class="container">
 							<div class="row">
@@ -81,18 +79,7 @@ export const Openmarket = () => {
 
 								<DropDown/>
 
-								{/* <div class="col-md-2">
-
-									<div class="dropdown">
-										<button class="btn2 dropdown-toggle" type="button" data-toggle="dropdown">Your Farms
-										</button>
-										<ul class="dropdown-menu">
-											<li><a href="#">All Farms</a></li>
-											<li><a href="#">Kashi Farms</a></li>
-											<li><a href="#">Wireswap Farms</a></li>
-										</ul>
-									</div>
-								</div> */}
+								
 							</div>
 							<br />
 

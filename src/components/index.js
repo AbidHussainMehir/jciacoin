@@ -7,3 +7,4 @@ export * from "./TabPanes";
 export * from "./UnlockWallet";
 export * from "./DropDown";
 export * from "./FarmPair";
+export * from "./TokensList";

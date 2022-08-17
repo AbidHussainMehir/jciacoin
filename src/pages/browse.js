@@ -8,19 +8,16 @@ export const Browse = () => {
         
 	<div className="wrapper">
 
-		{/* <!---==================Sidebar start====================---> */}
         <Header />
         
-        {/* <!---==================Sidebar end====================--->
 
-        <!---============Top menu Dashboard start==============---> */}
+        {/* <!---============Top menu Dashboard start==============--->  */}
         <div className="body_content_wrap" id="myHeader">
             {/* <!----top navbar start--> */}  
 			<Nav/>
-            {/* <!---=====top navbar end=======--->
 
-            <!---============Body section start==================--->
-            <!-------exchange page start------> */}
+            {/* <!---============Body section start==================---> */}
+            {/* <!-------exchange page start------>  */}
              <section>
 			    <div className="container-fluid">
 			        <div className="row" >
@@ -168,17 +165,14 @@ export const Browse = () => {
                 </div>
                 <div className="chose_token">
                 
-                    </div>
                 <Tokens/>
+                    </div>
             </div>
         </div>
     </div>
   
 
-    {/* <!-----select token modal popup 8 for connect to wallet end-->
-    <!----================================================================
-   	====================All modal popup start=============================
-   	================================================================-----> */}
+  
 
 
     </>

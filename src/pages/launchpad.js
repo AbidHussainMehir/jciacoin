@@ -1,24 +1,21 @@
 import React from 'react'
-import { Footer,Header, Nav ,Tokens,Wallets} from '../components'
+import { Footer, Header, Nav, Tokens, Wallets } from '../components'
 
 export const Launchpad = () => {
     return (
         <>
             <div class="wrapper">
-                {/* <!---==================Sidebar start====================---> */}
-                <Header/>
-               
-                {/* <!---==================Sidebar end====================---> */}
+                <Header />
+
 
                 {/* <!---============Top menu Dashboard start==============---> */}
                 <div class="body_content_wrap" id="myHeader">
                     {/* <!----top navbar start--> */}
-                    <Nav/>
+                    <Nav />
 
-                    {/* <!---=====top navbar end=======--->
 
-            <!---============Body section start==================--->
-            <!-------exchange page start------> */}
+                    {/* <!---============Body section start==================---> */}
+                    {/* <!-------exchange page start------>  */}
                     <section>
                         <div class="container">
                             <div class="row">
@@ -30,7 +27,7 @@ export const Launchpad = () => {
                                         <div class="tab-content">
                                             <div class="container py_0 tab-pane active">
                                                 <div class="exchange_tab">
-                                                    <div class="exchange_wrap pt_5" style={{"text-align": "center","display": "block"}}>
+                                                    <div class="exchange_wrap pt_5" style={{ "text-align": "center", "display": "block" }}>
                                                         <div class="exchange_hd">
                                                             <h1>Launchpad</h1>
 
@@ -62,15 +59,15 @@ export const Launchpad = () => {
                                                         <p class="margin">Mars Ecosystem</p>
                                                     </div>
                                                     <div class="">
-                                                        <p class="margin"><a href="#" style={{"font-size": "13px !important"}}> More </a></p>
+                                                        <p class="margin"><a href="#" style={{ "font-size": "13px !important" }}> More </a></p>
                                                     </div>
 
                                                 </div>
-                                                <p style={{"font-size":"13px !important"}}>Experience fully on-chain gaming and trading.</p>
+                                                <p style={{ "font-size": "13px !important" }}>Experience fully on-chain gaming and trading.</p>
 
                                                 <div class="main">
                                                     <div class="">
-                                                        <p class="margin" style={{"font-size":"13px !important"}}>IDO Amount:</p>
+                                                        <p class="margin" style={{ "font-size": "13px !important" }}>IDO Amount:</p>
                                                     </div>
                                                     <div class="">
                                                         <p class="margin"><a href="#">300,000 GAT</a></p>
@@ -79,7 +76,7 @@ export const Launchpad = () => {
                                                 </div>
                                                 <div class="main">
                                                     <div class="">
-                                                        <p class="margin" style={{"font-size":"13px !important"}}>Time:</p>
+                                                        <p class="margin" style={{ "font-size": "13px !important" }}>Time:</p>
                                                     </div>
                                                     <div class="">
                                                         <p class="margin"><a href="#">0 (07.19 7:00 UTC)</a></p>
@@ -111,15 +108,15 @@ export const Launchpad = () => {
                                                         <p class="margin">Mars Ecosystem</p>
                                                     </div>
                                                     <div class="">
-                                                        <p class="margin"><a href="#" style={{"font-size":"13px !important"}}> More  </a></p>
+                                                        <p class="margin"><a href="#" style={{ "font-size": "13px !important" }}> More  </a></p>
                                                     </div>
 
                                                 </div>
-                                                <p style={{"font-size":"13px !important"}}>Experience fully on-chain gaming and trading.</p>
+                                                <p style={{ "font-size": "13px !important" }}>Experience fully on-chain gaming and trading.</p>
 
                                                 <div class="main">
                                                     <div class="">
-                                                        <p class="margin" style={{"font-size":"13px !important"}}>IDO Amount:</p>
+                                                        <p class="margin" style={{ "font-size": "13px !important" }}>IDO Amount:</p>
                                                     </div>
                                                     <div class="">
                                                         <p class="margin"><a href="#">300,000 GAT</a></p>
@@ -128,7 +125,7 @@ export const Launchpad = () => {
                                                 </div>
                                                 <div class="main">
                                                     <div class="">
-                                                        <p class="margin" style={{"font-size":"13px !important"}}>Time:</p>
+                                                        <p class="margin" style={{ "font-size": "13px !important" }}>Time:</p>
                                                     </div>
                                                     <div class="">
                                                         <p class="margin"><a href="#">0 (07.19 7:00 UTC)</a></p>
@@ -158,15 +155,15 @@ export const Launchpad = () => {
                                                         <p class="margin">Mars Ecosystem</p>
                                                     </div>
                                                     <div class="">
-                                                        <p class="margin"><a href="#" style={{"font-size":"13px !important"}}> More  </a></p>
+                                                        <p class="margin"><a href="#" style={{ "font-size": "13px !important" }}> More  </a></p>
                                                     </div>
 
                                                 </div>
-                                                <p style={{"font-size":"13px !important"}}>Experience fully on-chain gaming and trading.</p>
+                                                <p style={{ "font-size": "13px !important" }}>Experience fully on-chain gaming and trading.</p>
 
                                                 <div class="main">
                                                     <div class="">
-                                                        <p class="margin" style={{"font-size":"13px !important"}}>IDO Amount:</p>
+                                                        <p class="margin" style={{ "font-size": "13px !important" }}>IDO Amount:</p>
                                                     </div>
                                                     <div class="">
                                                         <p class="margin"><a href="#">300,000 GAT</a></p>
@@ -175,7 +172,7 @@ export const Launchpad = () => {
                                                 </div>
                                                 <div class="main">
                                                     <div class="">
-                                                        <p class="margin" style={{"font-size":"13px !important"}}>Time:</p>
+                                                        <p class="margin" style={{ "font-size": "13px !important" }}>Time:</p>
                                                     </div>
                                                     <div class="">
                                                         <p class="margin"><a href="#">0 (07.19 7:00 UTC)</a></p>
@@ -205,15 +202,15 @@ export const Launchpad = () => {
                                                         <p class="margin">Mars Ecosystem</p>
                                                     </div>
                                                     <div class="">
-                                                        <p class="margin"><a href="#" style={{"font-size":"13px !important"}}> More </a></p>
+                                                        <p class="margin"><a href="#" style={{ "font-size": "13px !important" }}> More </a></p>
                                                     </div>
 
                                                 </div>
-                                                <p style={{"font-size":"13px !important"}}>Experience fully on-chain gaming and trading.</p>
+                                                <p style={{ "font-size": "13px !important" }}>Experience fully on-chain gaming and trading.</p>
 
                                                 <div class="main">
                                                     <div class="">
-                                                        <p class="margin" style={{"font-size":"13px !important"}}>IDO Amount:</p>
+                                                        <p class="margin" style={{ "font-size": "13px !important" }}>IDO Amount:</p>
                                                     </div>
                                                     <div class="">
                                                         <p class="margin"><a href="#">300,000 GAT</a></p>
@@ -222,7 +219,7 @@ export const Launchpad = () => {
                                                 </div>
                                                 <div class="main">
                                                     <div class="">
-                                                        <p class="margin" style={{"font-size":"13px !important"}}>Time:</p>
+                                                        <p class="margin" style={{ "font-size": "13px !important" }}>Time:</p>
                                                     </div>
                                                     <div class="">
                                                         <p class="margin"><a href="#">0 (07.19 7:00 UTC)</a></p>
@@ -244,7 +241,7 @@ export const Launchpad = () => {
                         </div>
                     </section>
                     <footer class="footer_section">
-                       <Footer/>
+                        <Footer />
                     </footer>
                     {/* <!-------exchange page end------>
 			<!-------=========Liquidity page modal popup start=========---->
@@ -252,13 +249,13 @@ export const Launchpad = () => {
                     <div id="myNav10" class="overlay10 textcenter">
                         <div class="setting_close">
                             <span class="tokenset">Settings</span>
-                            <span  onClick={() => window.closeNav10()}>&times;</span>
+                            <span onClick={() => window.closeNav10()}>&times;</span>
                         </div>
                         <div class="bx_shadow"></div>
                         <div class="overlay10-content">
                             <div class="swapbg10">
                                 <div class="dead_line">
-                                    <p style={{"color":"black"}}>
+                                    <p style={{ "color": "black" }}>
                                         Slippage tolerance
                                     </p>
                                     <div class="seting_rate">
@@ -279,13 +276,13 @@ export const Launchpad = () => {
                                     </div>
                                 </div>
                                 <div class="dead_line">
-                                    <p style={{"color":"black"}}>
+                                    <p style={{ "color": "black" }}>
                                         Transaction deadline
                                     </p>
                                     <div class="seting_rate">
                                         <div class="setting_input set2">
                                             <input class="eqxqaX" type="number" placeholder="0.5%" />
-                                            <div style={{"color":"#fff"}}>Minutes</div>
+                                            <div style={{ "color": "#fff" }}>Minutes</div>
                                         </div>
 
                                     </div>
@@ -293,13 +290,13 @@ export const Launchpad = () => {
                             </div>
                         </div>
                     </div>
-                   
+
                     {/* <!-----modal popup 10 for connect to wallet end--->
 			<!-----modal popup 11 for connect to wallet start---> */}
                     <div id="myNav11" class="overlay11 textcenter">
                         <div class="setting_close">
                             <span class="tokenset">Recent Transactions</span>
-                            <span  onClick={() => window.closeNav11()}>&times;</span>
+                            <span onClick={() => window.closeNav11()}>&times;</span>
                         </div>
                         <div class="bx_shadow"></div>
                         <div class="overlay11-content">
@@ -309,32 +306,30 @@ export const Launchpad = () => {
                                         Please connect your wallet to view your recent transactions
                                     </p>
                                     <div class="btn_close">
-                                        <button class="btn"  onClick={() => window.closeNav11()}>Close</button>
+                                        <button class="btn" onClick={() => window.closeNav11()}>Close</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                  
+
                     {/* <!-----modal popup 11 for connect to wallet end-->
 			<!-------=========Liquidity page modal popup end=========---->
             <!-------exchange page start------>
             <!---============Body section end====================---> */}
                 </div>
             </div>
-          
-    
 
 
 
-            {/* <!----================================================================
-   	====================All modal popup start=============================
-   	================================================================-----> */}
+
+
+            {/* <!----=======All modal popup start=====-----> */}
             {/* <!-----modal popup 9 for connect to wallet start--> */}
             <div id="myNav9" class="overlay9 textcenter">
-                <Wallets/>
+                <Wallets />
             </div>
-          
+
             {/* <!-----modal popup 8 for connect to wallet end--> */}
 
 
@@ -343,7 +338,7 @@ export const Launchpad = () => {
             <div id="myNav8" class="overlay8 textcenter">
                 <div class="setting_close">
                     <span class="tokenset font_normal">Select a token <i class="fa fa-question"></i></span>
-                    <span  onClick={() => window.closeNav8()}>&times;</span>
+                    <span onClick={() => window.closeNav8()}>&times;</span>
                 </div>
                 <div class="overlay8-content">
                     <div class="swapbg8">
@@ -353,20 +348,13 @@ export const Launchpad = () => {
                             </div>
                         </div>
                         <div class="chose_token">
-                           <Tokens/>
-                           </div>
+                            <Tokens />
+                        </div>
                     </div>
 
                 </div>
             </div>
-         
-            
 
-            {/* 
-    <!-----select token modal popup 8 for connect to wallet end-->
-    <!----================================================================
-   	====================All modal popup start=============================
-   	================================================================-----> */}
 
         </>
     )
