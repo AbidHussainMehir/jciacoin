@@ -7,7 +7,7 @@ export const Header = () => {
         <nav id="sidebar">
             <div class="sidebar-header">
                 <Link to="/">
-                    <img src="assets/image/logo.png" />
+                    <img src="assets/image/logo.png" alt='' />
                 </Link>
             </div>
             <ul class="list-unstyled components fa_icon_Set">

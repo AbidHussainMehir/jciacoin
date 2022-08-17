@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, Nav, Tokens, Wallets } from '../components'
+import { DropDown, Footer, Header, Nav, Tokens, Wallets } from '../components'
 
 
 
@@ -76,7 +76,12 @@ export const Openmarket = () => {
 										<input id="Enter_amount" class="input_search" placeholder="Search by token or pair" />
 									</div>
 								</div>
-								<div class="col-md-2">
+
+								{/* Dropdown list of Farms */}
+
+								<DropDown/>
+
+								{/* <div class="col-md-2">
 
 									<div class="dropdown">
 										<button class="btn2 dropdown-toggle" type="button" data-toggle="dropdown">Your Farms
@@ -87,7 +92,7 @@ export const Openmarket = () => {
 											<li><a href="#">Wireswap Farms</a></li>
 										</ul>
 									</div>
-								</div>
+								</div> */}
 							</div>
 							<br />
 

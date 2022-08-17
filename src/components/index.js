@@ -3,3 +3,7 @@ export * from "./Header";
 export * from "./Nav";
 export * from "./Wallets";
 export * from "./Tokens";
+export * from "./TabPanes";
+export * from "./UnlockWallet";
+export * from "./DropDown";
+export * from "./FarmPair";

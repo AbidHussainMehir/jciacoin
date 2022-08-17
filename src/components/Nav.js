@@ -14,7 +14,7 @@ export const Nav = () => {
 					
 					    <nav class="navbar navbar-expand-sm navbar-dark"  style={{"border-bottom": "unset"}}>
 					        <a class="navbar-brand" href="/">
-					        	<img src="assets/image/logo.png" />
+					        	<img src="assets/image/logo.png" alt='' />
 					        </a>
 					        <ul class="navbar-nav">
 					            <li class="nav-item">

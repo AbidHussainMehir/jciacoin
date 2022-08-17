@@ -52,7 +52,7 @@ export const Imports = () => {
                                     <div class="bnb_btn bnb_position">
                                       <span class="swap_from">Swap From</span>
                                       <button onClick={() => window.openNav8()}>
-                                        <img src="assets/image/eth.jpg" />
+                                        <img alt='' src="assets/image/eth.jpg" />
                                         <span><b>ETH</b></span>
                                         <i class="fa fa-chevron-down"></i>
                                       </button>
@@ -214,19 +214,19 @@ export const Imports = () => {
               </div>
               <div class="eth">
                 <div class="eth_img">
-                  <img src="assets/image/eth1.jpg" /> ETH
+                  <img alt='' src="assets/image/eth1.jpg" /> ETH
                 </div>
                 <div class="eth_img">
-                  <img src="assets/image/sushi.jpg" /> SUSHI
+                  <img alt='' src="assets/image/sushi.jpg" /> SUSHI
                 </div>
                 <div class="eth_img">
-                  <img src="assets/image/wbtr.jpg" /> WBTR
+                  <img alt='' src="assets/image/wbtr.jpg" /> WBTR
                 </div>
                 <div class="eth_img">
-                  <img src="assets/image/mim.jpg" />  MIM
+                  <img alt='' src="assets/image/mim.jpg" />  MIM
                 </div>
                 <div class="eth_img">
-                  <img src="assets/image/spell.webp" />  SPELL
+                  <img alt='' src="assets/image/spell.webp" />  SPELL
                 </div>
 
 
@@ -234,19 +234,19 @@ export const Imports = () => {
 
               <div class="eth">
                 <div class="eth_img">
-                  <img src="assets/image/ice.webp" /> ICE
+                  <img alt='' src="assets/image/ice.webp" /> ICE
                 </div>
                 <div class="eth_img">
-                  <img src="assets/image/usdc.jpg" /> USDC
+                  <img alt='' src="assets/image/usdc.jpg" /> USDC
                 </div>
                 <div class="eth_img">
-                  <img src="assets/image/usdt.jpg" /> USDT
+                  <img alt='' src="assets/image/usdt.jpg" /> USDT
                 </div>
                 <div class="eth_img">
-                  <img src="assets/image/dai.png" />  DAI
+                  <img alt='' src="assets/image/dai.png" />  DAI
                 </div>
                 <div class="eth_img">
-                  <img src="assets/image/frax.webp" />  FRAX
+                  <img alt='' src="assets/image/frax.webp" />  FRAX
                 </div>
 
 

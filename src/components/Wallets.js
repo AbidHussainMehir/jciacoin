@@ -17,7 +17,7 @@ export const Wallets = () => {
                             <h3>Metamask</h3>
                         </div>
                         <div class="wallet_name">
-                            <img src="assets/image/meta_mask.png" />
+                            <img alt='' src="assets/image/meta_mask.png" />
                         </div>
                     </button>
                     {/* <!----wallet box 2--> */}
@@ -26,7 +26,7 @@ export const Wallets = () => {
                             <h3>TrustWallet</h3>
                         </div>
                         <div class="wallet_name">
-                            <img src="assets/image/trust_wallet.png" />
+                            <img alt='' src="assets/image/trust_wallet.png" />
                         </div>
                     </button>
                     {/* <!----wallet box 3--> */}
@@ -35,7 +35,7 @@ export const Wallets = () => {
                             <h3>MathWallet</h3>
                         </div>
                         <div class="wallet_name">
-                            <img src="assets/image/math_wallet.png" />
+                            <img alt='' src="assets/image/math_wallet.png" />
                         </div>
                     </button>
                     {/* <!----wallet box 4--> */}
@@ -44,7 +44,7 @@ export const Wallets = () => {
                             <h3>MathWallet</h3>
                         </div>
                         <div class="wallet_name">
-                            <img src="assets/image/math_wallet.png" />
+                            <img alt='' src="assets/image/math_wallet.png" />
                         </div>
                     </button>
                     {/* <!----wallet box 5--> */}
@@ -53,7 +53,7 @@ export const Wallets = () => {
                             <h3>WalletConnect</h3>
                         </div>
                         <div class="wallet_name">
-                            <img src="assets/image/connect_wallet.png" />
+                            <img alt='' src="assets/image/connect_wallet.png" />
                         </div>
                     </button>
                     {/* <!----wallet box 6--> */}
@@ -62,7 +62,7 @@ export const Wallets = () => {
                             <h3>Binance Chain Wallet</h3>
                         </div>
                         <div class="wallet_name">
-                            <img src="assets/image/binance_chain_wallet.png" />
+                            <img alt='' src="assets/image/binance_chain_wallet.png" />
                         </div>
                     </button>
                     {/* <!----wallet box 7--> */}
@@ -71,7 +71,7 @@ export const Wallets = () => {
                             <h3>SafePal Wallet</h3>
                         </div>
                         <div class="wallet_name">
-                            <img src="assets/image/safepal_wallet.png" />
+                            <img alt='' src="assets/image/safepal_wallet.png" />
                         </div>
                     </button>
                     <div class="connect_info">

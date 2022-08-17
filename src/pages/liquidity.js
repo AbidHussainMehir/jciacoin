@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer,Header, Nav ,Tokens,Wallets} from '../components'
+import { Footer,Header, Nav ,TabPanes,Tokens} from '../components'
 
 
 
@@ -33,7 +33,10 @@ export const Liquidity = () => {
                                         <div class="tab-content">
                                             <div class="container py_0 tab-pane active">
                                                 <div class="exchange_tab">
-                                                    <div class="exchange_wrap pt_5">
+
+                                            <TabPanes/>
+
+                                                    {/* <div class="exchange_wrap pt_5">
                                                         <div class="exchange_hd">
                                                             <ul class="nav nav-pills pool_tab" role="tablist">
                                                                 <li class="nav-item">
@@ -58,7 +61,7 @@ export const Liquidity = () => {
                                                                 <i class="fa fa-clock-o"></i>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <div class="wallet_btn mr_set">
                                                         <a href="ETH"> <button class="btn button btn-success">Add Liquidity +</button></a>
                                                     </div>
@@ -193,7 +196,7 @@ export const Liquidity = () => {
                                     <h3>Metamask</h3>
                                 </div>
                                 <div class="wallet_name">
-                                    <img src="assets/image/meta_mask.png" />
+                                    <img alt='' src="assets/image/meta_mask.png" />
                                 </div>
                             </button>
                             {/* <!----wallet box 2--> */}
@@ -202,7 +205,7 @@ export const Liquidity = () => {
                                     <h3>TrustWallet</h3>
                                 </div>
                                 <div class="wallet_name">
-                                    <img src="assets/image/trust_wallet.png" />
+                                    <img alt='' src="assets/image/trust_wallet.png" />
                                 </div>
                             </button>
                             {/* <!----wallet box 3--> */}
@@ -211,7 +214,7 @@ export const Liquidity = () => {
                                     <h3>MathWallet</h3>
                                 </div>
                                 <div class="wallet_name">
-                                    <img src="assets/image/math_wallet.png" />
+                                    <img alt='' src="assets/image/math_wallet.png" />
                                 </div>
                             </button>
                             {/* <!----wallet box 4--> */}
@@ -220,7 +223,7 @@ export const Liquidity = () => {
                                     <h3>MathWallet</h3>
                                 </div>
                                 <div class="wallet_name">
-                                    <img src="assets/image/math_wallet.png" />
+                                    <img alt='' src="assets/image/math_wallet.png" />
                                 </div>
                             </button>
                             {/* <!----wallet box 5--> */}
@@ -229,7 +232,7 @@ export const Liquidity = () => {
                                     <h3>WalletConnect</h3>
                                 </div>
                                 <div class="wallet_name">
-                                    <img src="assets/image/connect_wallet.png" />
+                                    <img alt='' src="assets/image/connect_wallet.png" />
                                 </div>
                             </button>
                             {/* <!----wallet box 6--> */}
@@ -238,7 +241,7 @@ export const Liquidity = () => {
                                     <h3>Binance Chain Wallet</h3>
                                 </div>
                                 <div class="wallet_name">
-                                    <img src="assets/image/binance_chain_wallet.png" />
+                                    <img alt='' src="assets/image/binance_chain_wallet.png" />
                                 </div>
                             </button>
                             {/* <!----wallet box 7--> */}
@@ -247,7 +250,7 @@ export const Liquidity = () => {
                                     <h3>SafePal Wallet</h3>
                                 </div>
                                 <div class="wallet_name">
-                                    <img src="assets/image/safepal_wallet.png" />
+                                    <img alt='' src="assets/image/safepal_wallet.png" />
                                 </div>
                             </button>
                             <div class="connect_info">

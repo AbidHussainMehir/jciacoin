@@ -7,7 +7,7 @@ export const Footer = () => {
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="footer_col1">
-                                        <img src="assets/image/logo.png" />
+                                        <img src="assets/image/logo.png" alt='' />
                                         <p>Our community is building a comprehensive decentralized trading platform for the future of finance. Join us!</p>
                                         <ul>
                                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
