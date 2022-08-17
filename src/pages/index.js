@@ -1,2 +1,2 @@
 export * from "./home";
-export * from "./swap";
+export * from "./Swap";
