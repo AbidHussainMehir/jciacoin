@@ -3,6 +3,8 @@ import React from 'react'
 export const Title = () => {
   return (
     <>
+        <div class="container">
+
         <div class="row">
                         <div class="col-md-12 py_0  heading"><br />
                             <div class="pools">
@@ -25,6 +27,7 @@ export const Title = () => {
 
                             </div>
                         </div>
+                    </div>
                     </div>
     </>
   )

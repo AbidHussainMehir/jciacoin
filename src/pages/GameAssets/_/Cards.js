@@ -3,15 +3,15 @@ import React from 'react'
 export const Cards = () => {
   return (
     <>
-    
+    <div className="container">
           <div className="row">
 			            <div className="col-md-3">
 						   <a href="#" style={{"text-decoration": "none"}}>
 						    <div className="main_one">
 						     <div className="main">
 						  	  <div className="">
-						  		<div className="sc-eLdqWK jCwswk"></div>
-						  		<div className="sc-eLdqWK sc-iiUIRa fNtHKr"></div>
+						  		<div className="sc-eLdqWK jCwswk" style={{backgroundImage:`url(${require("../../../assets/image/btcb.png")})` }} ></div>
+						  		<div className="sc-eLdqWK sc-iiUIRa fNtHKr" style={{backgroundImage:`url(${require("../../../assets/image/btcb.png")})` }}></div>
 						  	  </div>
 						  	   <div className="">
 						  		<p>On Auction</p>
@@ -36,8 +36,8 @@ export const Cards = () => {
 						    <div className="main_one">
 						     <div className="main">
 						  	  <div className="">
-						  		<div className="sc-eLdqWK jCwswk"></div>
-						  		<div className="sc-eLdqWK sc-iiUIRa fNtHKr"></div>
+						  		<div className="sc-eLdqWK jCwswk" style={{backgroundImage:`url(${require("../../../assets/image/btcb.png")})` }}></div>
+						  		<div className="sc-eLdqWK sc-iiUIRa fNtHKr" style={{backgroundImage:`url(${require("../../../assets/image/btcb.png")})` }}></div>
 						  	  </div>
 						  	   <div className="">
 						  		<p>On Sale</p>
@@ -62,8 +62,8 @@ export const Cards = () => {
 						    <div className="main_one">
 						     <div className="main">
 						  	  <div className="">
-						  		<div className="sc-eLdqWK jCwswk"></div>
-						  		<div className="sc-eLdqWK sc-iiUIRa fNtHKr"></div>
+						  		<div className="sc-eLdqWK jCwswk" style={{backgroundImage:`url(${require("../../../assets/image/btcb.png")})` }}></div>
+						  		<div className="sc-eLdqWK sc-iiUIRa fNtHKr" style={{backgroundImage:`url(${require("../../../assets/image/btcb.png")})` }}></div>
 						  	  </div>
 						  	   <div className="">
 						  		<p>On Auction</p>
@@ -89,8 +89,8 @@ export const Cards = () => {
 						    <div className="main_one">
 						     <div className="main">
 						  	  <div className="">
-						  		<div className="sc-eLdqWK jCwswk"></div>
-						  		<div className="sc-eLdqWK sc-iiUIRa fNtHKr"></div>
+						  		<div className="sc-eLdqWK jCwswk" style={{backgroundImage:`url(${require("../../../assets/image/btcb.png")})` }}></div>
+						  		<div className="sc-eLdqWK sc-iiUIRa fNtHKr" style={{backgroundImage:`url(${require("../../../assets/image/btcb.png")})` }}></div>
 						  	  </div>
 						  	   <div className="">
 						  		<p>On Sale</p>
@@ -110,6 +110,7 @@ export const Cards = () => {
 						     </a>
 			              </div> 
 			        </div>
+					</div>
     </>
   )
 }

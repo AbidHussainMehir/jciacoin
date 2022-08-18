@@ -5,9 +5,9 @@ import { Main } from './_'
 export const Import = () => {
   return (
     <>
-       <Main/>
-                  <Settings/>
-                  <Token/>
+      <Main />
+      <Settings />
+      <Token />
     </>
   )
 }

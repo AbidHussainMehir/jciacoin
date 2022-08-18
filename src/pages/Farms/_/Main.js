@@ -2,9 +2,9 @@ import React from 'react'
 
 export const Main = () => {
   return (
-    <>
-        
-       
+    <> 
+    
+
             <div className="body_content_wrap" id="myHeader">              
               <section className="maindsb">
                 <div className="maininner">

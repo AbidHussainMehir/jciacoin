@@ -5,7 +5,7 @@ export const Farm = () => {
   return (
     <>
         <FarmPair/>
-        <Input/>
+        <Input/> 
     </>
   )
 }

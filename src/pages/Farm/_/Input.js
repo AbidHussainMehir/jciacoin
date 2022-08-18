@@ -15,12 +15,12 @@ export const Input = () => {
                 <input id="Enter_amount" className="input_search" placeholder="Search by token or pair" />
               </div>
             </div>
-            <div class="col-md-2">
+            <div className="col-md-2">
 
-              <div class="dropdown">
-                <button class="btn2 dropdown-toggle" type="button" data-toggle="dropdown">Your Farms
+              <div className="dropdown">
+                <button className="btn2 dropdown-toggle" type="button" data-toggle="dropdown">Your Farms
                 </button>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li><a href="#">All Farms</a></li>
                   <li><a href="#">Kashi Farms</a></li>
                   <li><a href="#">Wireswap Farms</a></li>
