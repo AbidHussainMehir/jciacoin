@@ -6,9 +6,7 @@ export const Main = () => {
          <div className="row">
                         <div className="col-md-12 py_0  heading"><br />
                             <div className="pools">
-                                {/* <!-- Nav pills --> */}
-
-                                {/* <!-- Tab panes --> */}
+                               
                             </div>
                         </div>
                     </div>
