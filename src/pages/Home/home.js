@@ -1,5 +1,6 @@
 import React from 'react'
-import {  Main, Settings, Token } from './_'
+import { Settings, Token } from '../../components'
+import {  Main} from './_'
 
 export const Home = () => {
   return (
