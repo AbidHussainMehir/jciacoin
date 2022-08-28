@@ -28,36 +28,36 @@ export function Token() {
             </div>
             <div className="eth">
               <div className="eth_img">
-                <img src={require("../../../assets/image/eth1.jpg")} /> ETH
+                <img src={require("../assets/image/eth1.jpg")} /> ETH
               </div>
               <div className="eth_img">
-                <img src={require("../../../assets/image/sushi.jpg")} /> SUSHI
+                <img src={require("../assets/image/sushi.jpg")} /> SUSHI
               </div>
               <div className="eth_img">
-                <img src={require("../../../assets/image/wbtr.jpg")} /> WBTR
+                <img src={require("../assets/image/wbtr.jpg")} /> WBTR
               </div>
               <div className="eth_img">
-                <img src={require("../../../assets/image/mim.jpg")} /> MIM
+                <img src={require("../assets/image/mim.jpg")} /> MIM
               </div>
               <div className="eth_img">
-                <img src={require("../../../assets/image/spell.webp")} /> SPELL
+                <img src={require("../assets/image/spell.webp")} /> SPELL
               </div>
             </div>
             <div className="eth">
               <div className="eth_img">
-                <img src={require("../../../assets/image/ice.webp")} /> ICE
+                <img src={require("../assets/image/ice.webp")} /> ICE
               </div>
               <div className="eth_img">
-                <img src={require("../../../assets/image/usdc.jpg")} /> USDC
+                <img src={require("../assets/image/usdc.jpg")} /> USDC
               </div>
               <div className="eth_img">
-                <img src={require("../../../assets/image/usdt.jpg")} /> USDT
+                <img src={require("../assets/image/usdt.jpg")} /> USDT
               </div>
               <div className="eth_img">
-                <img src={require("../../../assets/image/dai.png")} /> DAI
+                <img src={require("../assets/image/dai.png")} /> DAI
               </div>
               <div className="eth_img">
-                <img src={require("../../../assets/image/frax.webp")} /> FRAX
+                <img src={require("../assets/image/frax.webp")} /> FRAX
               </div>
             </div>
             <div className="chose_token">
@@ -65,7 +65,7 @@ export function Token() {
               <div className="token_arrow">
                 {" "}
                 <img
-                  src={require("../../../assets/image/arrow_down.png")}
+                  src={require("../assets/image/arrow_down.png")}
                 />{" "}
               </div>{" "}
             </div>{" "}
@@ -73,7 +73,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/bnb.png")} />
+                    <img src={require("../assets/image/bnb.png")} />
                     BNB
                   </h2>
                 </div>
@@ -83,7 +83,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/ADA.png")} />
+                    <img src={require("../assets/image/ADA.png")} />
                     ADA
                   </h2>
                 </div>
@@ -93,7 +93,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/ALPHA.png")} />
+                    <img src={require("../assets/image/ALPHA.png")} />
                     ALPHA
                   </h2>
                 </div>
@@ -103,7 +103,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/ANKR.png")} />
+                    <img src={require("../assets/image/ANKR.png")} />
                     ANKR
                   </h2>
                 </div>
@@ -113,7 +113,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/ATM.png")} />
+                    <img src={require("../assets/image/ATM.png")} />
                     ATM
                   </h2>
                 </div>
@@ -123,7 +123,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/ATOM.png")} />
+                    <img src={require("../assets/image/ATOM.png")} />
                     ATOM
                   </h2>
                 </div>
@@ -133,7 +133,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/BAKE.png")} />
+                    <img src={require("../assets/image/BAKE.png")} />
                     BAKE
                   </h2>
                 </div>
@@ -143,7 +143,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/bLBT.png")} />
+                    <img src={require("../assets/image/bLBT.png")} />
                     bLBT
                   </h2>
                 </div>
@@ -153,7 +153,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/usdt.png")} />
+                    <img src={require("../assets/image/usdt.png")} />
                     USDT
                   </h2>
                 </div>
@@ -163,7 +163,7 @@ export function Token() {
               <div className="token_list">
                 <div className="token_icon">
                   <h2>
-                    <img src={require("../../../assets/image/wbnb.png")} />
+                    <img src={require("../assets/image/wbnb.png")} />
                     WBNB
                   </h2>
                 </div>

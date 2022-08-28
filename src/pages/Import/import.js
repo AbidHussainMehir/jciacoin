@@ -1,13 +1,13 @@
 import React from 'react'
 import { Settings, Token } from '../../components'
-import {  Main} from './_'
+import { Main } from './_'
 
-export const Home = () => {
+export const Import = () => {
   return (
     <>
-        <Main/>
-        <Settings/>
-        <Token/>
+      <Main />
+      <Settings />
+      <Token />
     </>
   )
 }
