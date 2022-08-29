@@ -1,5 +1,6 @@
 import Web3 from "web3";
 import { useState } from "react"; 
+import IconImage from '../../assets/image/logo.png'
 export function Navbar() {
   function openNav9() {
     console.log("called");
@@ -56,7 +57,7 @@ export function Navbar() {
             style={{ borderBottom: "unset" }}
           >
             <a className="navbar-brand" href="/">
-              <img src={require("../../assets/image/logo.png")} />
+              <img src={IconImage} />
             </a>
             <ul className="navbar-nav">
               <li className="nav-item">
