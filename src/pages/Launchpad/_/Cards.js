@@ -1,5 +1,5 @@
 import React from 'react'
-
+import MsImage from '../../../assets/image/ms.png'
 export const Cards = () => {
     return (
         <> 
@@ -8,7 +8,7 @@ export const Cards = () => {
                 <div className="col-md-3">
                     <a href="#">
                         <div className="main_one1">
-                            <div className="sc-ecYbI eVjrqF" style={{backgroundImage:`url(${require("../../../assets/image/ms.png")})` }} >
+                            <div className="sc-ecYbI eVjrqF" style={{backgroundImage:`url(${MsImage})` }} >
                                 <section className="sc-bQEgQf LdMpf" >
                                     <div className="css-65w75">Ended</div>
                                 </section>
@@ -57,7 +57,7 @@ export const Cards = () => {
                 <div className="col-md-3">
                     <a href="#">
                         <div className="main_one1">
-                            <div className="sc-ecYbI eVjrqF" style={{backgroundImage:`url(${require("../../../assets/image/ms.png")})` }}>
+                            <div className="sc-ecYbI eVjrqF" style={{backgroundImage:`url(${MsImage})` }}>
                                 <section className="sc-bQEgQf LdMpf">
                                     <div className="css-65w75">Ended</div>
                                 </section>
@@ -104,7 +104,7 @@ export const Cards = () => {
                 <div className="col-md-3">
                     <a href="#">
                         <div className="main_one1">
-                            <div className="sc-ecYbI eVjrqF" style={{backgroundImage:`url(${require("../../../assets/image/ms.png")})` }}>
+                            <div className="sc-ecYbI eVjrqF" style={{backgroundImage:`url(${MsImage})` }}>
                                 <section className="sc-bQEgQf LdMpf">
                                     <div className="css-65w75">Ended</div>
                                 </section>
@@ -151,7 +151,7 @@ export const Cards = () => {
                 <div className="col-md-3">
                     <a href="#">
                         <div className="main_one1">
-                            <div className="sc-ecYbI eVjrqF" style={{backgroundImage:`url(${require("../../../assets/image/ms.png")})` }}>
+                            <div className="sc-ecYbI eVjrqF" style={{backgroundImage:`url(${MsImage})` }}>
                                 <section className="sc-bQEgQf LdMpf">
                                     <div className="css-65w75">Ended</div>
                                 </section>

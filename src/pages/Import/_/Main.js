@@ -1,5 +1,5 @@
 import React from 'react'
-
+import EthImage from '../../../assets/image/eth.jpg'
 export const Main = () => {
     function openNav9() {
         document.getElementById("myNav9").style.display = "block";
@@ -40,7 +40,7 @@ export const Main = () => {
                                                             <div className="bnb_btn bnb_position">
                                                                 <span className="swap_from">Swap From</span>
                                                                 <button onClick={openNav8}>
-                                                                    <img alt='' src={require("../../../assets/image/eth.jpg")} />
+                                                                    <img alt='' src={EthImage} />
                                                                     <span><b>ETH</b></span>
                                                                     <i className="fa fa-chevron-down"></i>
                                                                 </button>

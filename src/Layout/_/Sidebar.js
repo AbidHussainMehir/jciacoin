@@ -1,9 +1,10 @@
+import LogoImage from '../../assets/image/logo.png'
 export function Sidebar() {
   return (
     <nav id="sidebar">
       <div className="sidebar-header">
         <a href="/">
-          <img src={require("../../assets/image/logo.png")} />
+          <img src={LogoImage} />
         </a>
       </div>
       <ul className="list-unstyled components fa_icon_Set">

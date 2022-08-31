@@ -1,3 +1,4 @@
+import BnbImage from '../../../assets/image/bnb.png'
 export function Main() {
   function openNav9() {
     document.getElementById("myNav9").style.display = "block";
@@ -76,7 +77,7 @@ export function Main() {
                             <span className="swap_from">Swap From</span>
                             <button onClick={openNav8}>
                               <img
-                                src={require("../../../assets/image/bnb.png")}
+                                src={BnbImage}
                               />
                               <span>
                                 <b>BNB</b>

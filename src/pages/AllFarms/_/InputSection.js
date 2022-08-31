@@ -1,5 +1,7 @@
 import React from 'react'
-
+import BnbImage from '../../../assets/image/bnb.png'
+import ADAImage from '../../../assets/image/ADA.png'
+import PinImage from '../../../assets/image/pin.jpg'
 export const InputSection = () => {
   return (
     <>
@@ -49,7 +51,7 @@ export const InputSection = () => {
                         <td>
                           <div className="main_div">
                             <div className="img_set">
-                              <img alt='' className="imgagess" src={require("../../../assets/image/bnb.png")} /><img alt='' className="imgagess1" src={require("../../../assets/image/ADA.png")} />
+                              <img alt='' className="imgagess" src={BnbImage} /><img alt='' className="imgagess1" src={ADAImage} />
                             </div>
                             <div className="">
                               <h1 className="icon_logo">
@@ -67,7 +69,7 @@ export const InputSection = () => {
                         </td>
 
                         <td className="top_paddding">$93,495,969</td>
-                        <td><span className="top_paddding1">2574 </span><img alt='' className="img_small" src={require("../../../assets/image/pin.jpg")} /></td>
+                        <td><span className="top_paddding1">2574 </span><img alt='' className="img_small" src={PinImage} /></td>
 
                         <td className="icon_logo">8.37%  <i className="fa fa-question-circle" aria-hidden="true"></i>
                           <p className="annu">

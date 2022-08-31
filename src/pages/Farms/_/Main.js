@@ -1,5 +1,5 @@
 import React from 'react'
-
+import LogoImage from '../../../assets/image/logo.png'
 export const Main = () => {
   return (
     <> 
@@ -12,13 +12,13 @@ export const Main = () => {
                     <div className="row">
                       <div className="col-md-8 offset-md-2" align="center"> <br /><h1>Farm Anytime, Get Rewards Instantly.</h1>
                         <p className="ule_imgset">It's a good day to farm some CST.
-                          <img alt='' src={require("../../../assets/image/logo.png")} width="30px" height="30px" /></p></div>
+                          <img alt='' src={LogoImage} width="30px" height="30px" /></p></div>
                       <div className="col-md-6 offset-md-3">
                         <div className="farming_content">
                           <div className="farm_serv_box">
                             <div className="farm_icons">
                               <div className="farm_coins">
-                                <img src={require("../../../assets/image/logo.png")} className="farm_log_set" alt="logo" />
+                                <img src={LogoImage} className="farm_log_set" alt="logo" />
     
                               </div>
                               <div className="farm_heading">

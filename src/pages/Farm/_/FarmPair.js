@@ -1,10 +1,10 @@
 import React from 'react'
-
+import BubblePattern from '../../../assets/image/bubble-pattern.png'
 export const FarmPair = () => {
     return (
         <>
             <section >
-                <div className="" style={{backgroundImage:`url(${require("../../../assets/image/bubble-pattern.png")})` }}>
+                <div className="" style={{backgroundImage:`url(${BubblePattern})` }}>
                     <div className="container-fluid set_nav_width">
                         <div className="row">
                             <div className="col-md-12 py_0 heading"><br />

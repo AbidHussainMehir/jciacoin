@@ -1,5 +1,5 @@
 import React from 'react'
-
+import FirstImage from '../../../assets/image/1.jpeg'
 export const Onsale = () => {
     return (
         <>
@@ -17,7 +17,7 @@ export const Onsale = () => {
                                     <p>On Sale</p>
                                 </div>
                             </div>
-                            <img alt='' src={require("../../../assets/image/1.jpeg")} width="100%" />
+                            <img alt='' src={FirstImage} width="100%" />
                             <div className="main">
                                 <div className="">
                                     <p className="margin">AlberTo</p>
@@ -41,7 +41,7 @@ export const Onsale = () => {
                                     <p>On Sale</p>
                                 </div>
                             </div>
-                            <img alt='' src={require("../../../assets/image/1.jpeg")} width="100%" />
+                            <img alt='' src={FirstImage} width="100%" />
                             <div className="main">
                                 <div className="">
                                     <p className="margin">AlberTo</p>
@@ -65,7 +65,7 @@ export const Onsale = () => {
                                     <p>On Sale</p>
                                 </div>
                             </div>
-                            <img alt='' src={require("../../../assets/image/1.jpeg")} width="100%" />
+                            <img alt='' src={FirstImage} width="100%" />
                             <div className="main">
                                 <div className="">
                                     <p className="margin">AlberTo</p>
@@ -89,7 +89,7 @@ export const Onsale = () => {
                                     <p>On Sale</p>
                                 </div>
                             </div>
-                            <img alt='' src={require("../../../assets/image/1.jpeg")} width="100%" />
+                            <img alt='' src={FirstImage} width="100%" />
                             <div className="main">
                                 <div className="">
                                     <p className="margin">AlberTo</p>
