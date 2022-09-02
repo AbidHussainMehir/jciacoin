@@ -1,3 +1,6 @@
+import Web3 from "web3";
+import { useState } from "react"; 
+import IconImage from '../../assets/image/logo.png'
 export function Navbar() {
   function openNav9() {
     console.log("called");
@@ -7,6 +10,37 @@ export function Navbar() {
   function closeNav9() {
     document.getElementById("myNav9").style.display = "none";
   }
+  const [account, setAccount] = useState(null);
+
+  const metamask = async () => {
+    let isConnected = false;
+    try {
+      if (window.ethereum) {
+        window.web3 = new Web3(window.ethereum);
+        await window.ethereum.enable();
+        isConnected = true;
+      } else if (window.web3) {
+        window.web3 = new Web3(window.web3.currentProvider);
+        isConnected = true;
+      } else {
+        isConnected = false;
+        const web3 = window.web3;
+        let accounts = await web3.eth.getAccounts();
+        setAccount(accounts[0]);
+      }
+      if (isConnected === true) {
+        const web3 = window.web3;
+        let accounts = await web3.eth.getAccounts();
+        setAccount(accounts[0]);
+        window.ethereum.on("accountsChanged", async function (accounts) {
+          setAccount(accounts[0]);
+        });
+      }
+    } catch (error) {
+      console.log("error", error);
+      console.log("error message", error?.message);
+    }
+  };
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid set_nav_width">
@@ -23,7 +57,7 @@ export function Navbar() {
             style={{ borderBottom: "unset" }}
           >
             <a className="navbar-brand" href="/">
-              <img src={require("../../assets/image/logo.png")} />
+              <img src={IconImage} />
             </a>
             <ul className="navbar-nav">
               <li className="nav-item">
@@ -176,7 +210,7 @@ export function Navbar() {
         </div>
         <button
           className="btn button btn-success d-inline-block ml-auto contact"
-          onClick={openNav9}
+          onClick={metamask}
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -185,7 +219,12 @@ export function Navbar() {
           aria-label="Toggle navigation"
         >
           <i className="fas fa-wallet"></i>
-          Connect wallet
+          {account
+                ? `${account.slice(0, 5)}...${account.slice(
+                    account.length - 5,
+                    account.length
+                  )}`
+                : "Connect Wallet"}
         </button>
       </div>
     </nav>
