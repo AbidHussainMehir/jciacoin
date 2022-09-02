@@ -11,17 +11,10 @@ export const Home = () => {
   console.log({ state });
 
   useEffect(() => {
-    // dispatch(setWalletData({ account: "userAddress", web3: "provider" }));
+    dispatch(setWalletData({ account: "userAddress", web3: "provider" }));
   }, []);
   return (
     <>
-      <button
-        onClick={() =>
-          dispatch(setWalletData({ account: "userAddress", web3: "provider" }))
-        }
-      >
-        click
-      </button>
       <Main />
       <Settings />
       <Token />
